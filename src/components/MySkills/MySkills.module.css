@@ -1,5 +1,5 @@
 .aboutPageContainer {
-    width: 80%;
+    width: 90%;
     /* padding-top: 1rem; */
     margin: auto;
     text-align: center;
@@ -15,14 +15,12 @@
     list-style-type: none; 
     padding: 0; 
     margin:auto;
-flex-flow: row wrap;
-align-items: flex-end;
+    flex-flow: row wrap;
+    align-items: flex-end;
     display: flex;
     justify-content: space-around;
 }
 
 .unorderedList>li {
-flex-basis: 30%;
-/* background-color: pink; */
-
+    flex-basis: 30%;
 }
