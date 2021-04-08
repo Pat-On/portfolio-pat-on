@@ -1,3 +1,13 @@
+.aboutPageContainer {
+    width: 80%;
+    /* padding-top: 1rem; */
+    margin: auto;
+    text-align: center;
+}
+
+
+
 .profileImg {
     width: 80%;
+    text-align: center;
 }
