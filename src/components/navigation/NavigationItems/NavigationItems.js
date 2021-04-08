@@ -11,8 +11,8 @@ const navigationItems = (props) => (
     <NavigationItem link="/about">About</NavigationItem>
     <NavigationItem link="/skills">My Skills</NavigationItem>
     <NavigationItem link="/projects">Projects</NavigationItem>
-    <NavigationItem link="/contact">Contact</NavigationItem>
     <NavigationItem link="/resume">Resume</NavigationItem>
+    <NavigationItem link="/contact">Contact</NavigationItem>
   </ul>
 );
 

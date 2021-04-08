@@ -6,6 +6,9 @@ const Contact = () => {
       <h1>Contact</h1>
       <p>email: patryk.nowak@gmail.com</p>
       <p>tel. 07306 680535</p>
+      <p>LOGO Linked In</p>
+      <p>LOGO github</p>
+      <p>LOGO leetcode</p>
       <p>google map or something like that pointing Birmingham</p>
     </div>
   );
