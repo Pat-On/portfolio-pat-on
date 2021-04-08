@@ -1,15 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 
 import Aux from "../Auxillary/Auxillary";
 import Toolbar from "../../components/navigation/Toolbar/Toolbar";
+import SideDrawer from "../../components/navigation/Sidedrwer/Sidedrawer";
+
+import classes from "./Layout.module.css";
 
 const Layout = (props) => {
-  //!TODO PROPER TOOLBAR AND SideDrawer
+  //!TODO SIDE DRAWER
+  const [sideDrawerIsVisible, setSideDrawerVisible] = useState(false);
+
+  const sideDrawerClosedHandler = () => {
+    setSideDrawerVisible(false);
+  };
+  const sideDrawerToggleHandler = () => {
+    setSideDrawerVisible(!sideDrawerIsVisible);
+  };
 
   return (
     <Aux>
-      <Toolbar />
-      <main>{props.children}</main>
+      <Toolbar drawerToggleClicked={sideDrawerToggleHandler} />
+
+      <SideDrawer open={sideDrawerIsVisible} closed={sideDrawerClosedHandler} />
+      <main className={classes.Content}>{props.children}</main>
     </Aux>
   );
 };
