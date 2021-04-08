@@ -1,20 +1,62 @@
 import React from "react";
 
+import classes from "./MySkills.module.css";
+
+import gitLogo from "../../assets/icons/git.png";
+import css3Logo from "../../assets/icons/css3.png";
+import html5Logo from "../../assets/icons/html5.png";
+import jsLogo from "../../assets/icons/js.png";
+import nodejsLogo from "../../assets/icons/nodejs.png";
+import npmLogo from "../../assets/icons/npm.png";
+import python3 from "../../assets/icons/python3.png";
+import reactLogo from "../../assets/icons/react.png";
+import reduxLogo from "../../assets/icons/redux.png";
+
 const MySkills = () => {
   return (
-    <div>
-      <h1>MySkills</h1>
+    <div className={classes.aboutPageContainer}>
+      <h1>My Skills</h1>
       <h2>Hard Skills</h2>
-      <ul>
-        <li>JavaScript </li>
-        <li>CSS </li>
-        <li>React.js </li>
-        <li>html5 </li>
-        <li>Python </li>
-        <li>git github </li>
-        <li>npm </li>
-        <li>STAR UML </li>
-        <li>MongoDB </li>
+      <h3>Recently used technologies by me:</h3>
+
+      <ul className={classes.unorderedList}>
+        <li>
+          <img className={classes.logo} src={jsLogo} alt="js logo" />
+          <p>JavaScript</p>
+        </li>
+        <li>
+          <img className={classes.logo} src={css3Logo} alt="css3 logo" />
+          <p>CSS3</p>
+        </li>
+        <li>
+          <img className={classes.logo} src={html5Logo} alt="html5 logo" />
+          <p>html5</p>
+        </li>
+        <li>
+          <img className={classes.logo} src={reactLogo} alt="react logo" />
+          <p>React.js</p>
+        </li>
+
+        <li>
+          <img className={classes.logo} src={reduxLogo} alt="redux.js logo" />
+          <p>redux.js</p>
+        </li>
+        <li>
+          <img className={classes.logo} src={gitLogo} alt="git logo" />
+          <p> Git </p>
+        </li>
+        <li>
+          <img className={classes.logo} src={npmLogo} alt="npm logo" />
+          <p>npm.js</p>
+        </li>
+        <li>
+          <img className={classes.logo} src={python3} alt="python3 logo" />
+          <p> Python3</p>
+        </li>
+        <li>
+          <img className={classes.logo} src={nodejsLogo} alt="node.js logo" />
+          <p> Node.js</p>
+        </li>
       </ul>
 
       <p style={{ color: "red" }}>Think over it</p>

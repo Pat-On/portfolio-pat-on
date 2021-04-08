@@ -1,0 +1,28 @@
+.aboutPageContainer {
+    width: 80%;
+    /* padding-top: 1rem; */
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    width: 50px;
+}
+
+.unorderedList {
+
+    width: 100%;
+    list-style-type: none; 
+    padding: 0; 
+    margin:auto;
+flex-flow: row wrap;
+align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+}
+
+.unorderedList>li {
+flex-basis: 30%;
+/* background-color: pink; */
+
+}
