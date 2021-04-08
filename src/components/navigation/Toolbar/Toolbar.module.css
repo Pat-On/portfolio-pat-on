@@ -4,10 +4,10 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #703b09;
+    background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 0 20px;
     box-sizing: border-box;
     z-index: 90;
@@ -16,6 +16,7 @@
 
 .Toolbar nav {
     height: 100%;
+    margin-left: auto;
     
 }
 @media(max-width: 499px) {
