@@ -1,9 +1,17 @@
 import React from "react";
+import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg";
+import classes from "./about.module.css";
 
 const About = () => {
   return (
     <div>
       <h1>ABOUT</h1>
+
+      <img
+        className={classes.profileImg}
+        src={ProfilePhoto}
+        alt="Profile Picture"
+      />
       <p>
         I'm a full stack developer who started from non IT background. I came
         from academic sector, where during my ph.d. studies I learn
