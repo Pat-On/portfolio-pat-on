@@ -5,7 +5,7 @@ import classes from "./Projects.module.css";
 const Projects = () => {
   return (
     <div className={classes.projectsPageContainer}>
-      <h1>PROJECTS</h1>
+      <h1 className={classes.projectTitle}>PROJECTS</h1>
       <h2>Noteworthy project built from start by me</h2>
 
       <div className={classes.projectContainer}>
