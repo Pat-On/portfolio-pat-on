@@ -6,5 +6,19 @@
 }
 
 .projectContainer {
-      border: 1px solid black;
+    border: 1px solid black;
+    margin: 10px 0 15px ;
+    padding: 10px;
+
 }
+
+
+.projectContainer>h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.projectContainer>a {
+    display: block;
+}
+

@@ -2,5 +2,33 @@
 width: 80%;
 margin: auto;
 padding-top: 7rem;
+
 }
 
+@media  (max-width: 480px) and (min-width: 320px) {
+.homePageContainer {
+ /* background-color: blue; */
+}
+}
+
+@media (max-width: 700px) and (min-width: 481px){
+.homePageContainer {
+    /* background-color: pink; */
+    padding-top: 7rem;
+}
+}
+@media (max-width: 1000px) and (min-width: 701px){
+.homePageContainer {
+    /* background-color: yellow; */
+    /* width: 60%; */
+    /* padding-top: 1rem; */
+}}
+@media (min-width: 1001px) {
+.homePageContainer {
+    width: 60%;
+    padding-left: 5%;
+    /* background-color: pink; */
+    padding-top: 8rem;
+}
+
+}

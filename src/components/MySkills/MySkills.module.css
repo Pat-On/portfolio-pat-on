@@ -24,3 +24,9 @@
 .unorderedList>li {
     flex-basis: 30%;
 }
+
+.mySkillsPElement {
+    font-size: 18;
+    font-weight: medium;
+    line-height: 2;
+}
