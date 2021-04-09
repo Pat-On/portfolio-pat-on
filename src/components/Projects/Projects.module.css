@@ -1,0 +1,10 @@
+.projectsPageContainer {
+    width: 90%;
+    /* padding-top: 1rem; */
+    margin: auto;
+    text-align: center;
+}
+
+.projectContainer {
+      border: 1px solid black;
+}
