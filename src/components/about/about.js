@@ -5,7 +5,7 @@ import classes from "./about.module.css";
 const About = () => {
   return (
     <div className={classes.aboutPageContainer}>
-      <h1>ABOUT</h1>
+      <h1 className={classes.aboutTitle}>ABOUT</h1>
 
       <img className={classes.profileImg} src={ProfilePhoto} alt="Profile" />
       <p className={classes.aboutPElement}>
