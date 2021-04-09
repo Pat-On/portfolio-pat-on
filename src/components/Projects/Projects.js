@@ -28,7 +28,7 @@ const Projects = () => {
           Application is using REST API 'TV MAZE' to fetch data.
         </p>
 
-        <a href="https://cyf-patrykn-tv.netlify.app/">
+        <a href="https://patryk-nowak-portfolio.netlify.app/">
           Live Page - change not proper link
         </a>
         <a href="https://github.com/Pat-On/portfolio-pat-on">
