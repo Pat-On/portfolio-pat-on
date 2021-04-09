@@ -1,0 +1,21 @@
+.contactContainer {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.unorderedList {
+    width: 100%;
+    list-style-type: none; 
+    padding: 0; 
+    margin:auto;
+    justify-content: space-around;
+}
+
+.unorderedList>li {
+    /* flex-basis: 30%; */
+}
+
+.links {
+    padding-left: 10px;
+}

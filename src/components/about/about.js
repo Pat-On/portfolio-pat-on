@@ -7,11 +7,7 @@ const About = () => {
     <div className={classes.aboutPageContainer}>
       <h1>ABOUT</h1>
 
-      <img
-        className={classes.profileImg}
-        src={ProfilePhoto}
-        alt="Profile Picture"
-      />
+      <img className={classes.profileImg} src={ProfilePhoto} alt="Profile" />
       <p>
         I'm a full stack developer who started from non IT background. I came
         from academic sector, where during my ph.d. studies I learn
