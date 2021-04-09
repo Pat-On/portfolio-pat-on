@@ -16,6 +16,9 @@
     line-height: 2;
 }
 
+.aboutTitle {
+    font-family: 'Roboto Slab 900', serif;
+}
 
 @media  (max-width: 480px) and (min-width: 320px) {
 .aboutPageContainer {

@@ -28,6 +28,14 @@
 	top:1px;
 }
 
+.resumeH1 {
+	font-family: 'Roboto Slab 900', serif;
+}
+
+/* .resumeH2 {
+	font-family: 'Roboto Slab 700', serif;
+} */
+
 @media  (max-width: 480px) and (min-width: 320px) {
 
 }

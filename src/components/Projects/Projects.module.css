@@ -20,14 +20,31 @@
 }
 
 .projectContainer>a {
+    padding: 0;
+    margin: 1.5rem
+}
+
+.projectContainer>a {
     display: block;
 }
 
+.projectsH1 {
+        font-family: 'Roboto Slab 900', serif;
+}
+
+.projectsH2 {
+    font-family: 'Roboto Slab 700', serif;
+}
+
+.projectsH3 {
+    font-family: 'Roboto Slab 500', serif;
+}
 
 @media  (max-width: 480px) and (min-width: 320px) {
 .projectsPageContainer {
 /* background-color: pink; */
 }
+
 }
 
 @media (max-width: 700px) and (min-width: 481px){
@@ -39,6 +56,7 @@
     /* display: inline; */
     margin: 1rem auto 1rem;
 }
+
 }
 @media (max-width: 1000px) and (min-width: 701px){
 .projectsPageContainer {
@@ -67,7 +85,7 @@
     
 }
 
-.projectTitle {
+.projectsH1{
     margin-bottom: 3rem;
 }
 

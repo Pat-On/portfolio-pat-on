@@ -5,7 +5,7 @@ import classes from "./Contact.module.css";
 const Contact = () => {
   return (
     <div className={classes.contactContainer}>
-      <h1>Contact </h1>
+      <h1 className={classes.contactH1}>CONTACT</h1>
       <h3>
         I am available for hire and open to any ideas of cooperation and to
         learn new things

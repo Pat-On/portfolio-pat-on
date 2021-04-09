@@ -5,7 +5,7 @@ import classes from "./Resume.module.css";
 const Resume = () => {
   return (
     <div className={classes.resumePageContainer}>
-      <h1>Resume</h1>
+      <h1 className={classes.resumeH1}>RESUME</h1>
       <p>
         <b>Thank You</b>
       </p>

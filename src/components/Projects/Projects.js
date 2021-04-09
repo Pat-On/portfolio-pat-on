@@ -5,11 +5,11 @@ import classes from "./Projects.module.css";
 const Projects = () => {
   return (
     <div className={classes.projectsPageContainer}>
-      <h1 className={classes.projectTitle}>PROJECTS</h1>
+      <h1 className={classes.projectsH1}>PROJECTS</h1>
       <h2>Noteworthy project built from start by me</h2>
 
       <div className={classes.projectContainer}>
-        <h3>TV Show Project</h3>
+        <h3 className={classes.projectsH3}>TV Show Project</h3>
         <p>
           Pure Java Script project, which is using the View Port Model.
           Application is using REST API 'TV MAZE' to fetch data.{" "}
@@ -22,7 +22,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.projectContainer}>
-        <h3>Portfolio</h3>
+        <h3 className={classes.projectsH3}>Portfolio</h3>
         <p>
           Pure Java Script project, which is using the View Port Model.
           Application is using REST API 'TV MAZE' to fetch data.
@@ -38,10 +38,10 @@ const Projects = () => {
 
       {/* small projects */}
 
-      <h2>Small projects made for practice</h2>
+      <h2 className={classes.projectsH2}>Small projects made for practice</h2>
 
       <div className={classes.projectContainer}>
-        <h3>Job Listing</h3>
+        <h3 className={classes.projectsH3}>Job Listing</h3>
         <p>
           Simple application made in react, which is fetching the data from REST
           API
@@ -54,7 +54,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.projectContainer}>
-        <h3>Countries</h3>
+        <h3 className={classes.projectsH3}>Countries</h3>
         <p>
           Simple application made in react, which is using REST API 'REST
           Countries' to fetch data.
@@ -67,7 +67,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.projectContainer}>
-        <h3>High Score Table</h3>
+        <h3 className={classes.projectsH3}>High Score Table</h3>
         <p>
           Simple application made in react, which is using data stored on local
           machine.
@@ -80,7 +80,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.projectContainer}>
-        <h3>Hotel Page</h3>
+        <h3 className={classes.projectsH3}>Hotel Page</h3>
         <p>
           Simple application made in react, which is using data stored on local
           machine.
@@ -93,7 +93,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.projectContainer}>
-        <h3>Baby name finder</h3>
+        <h3 className={classes.projectsH3}>Baby name finder</h3>
         <p>
           Simple application made in react, which is using data stored on local
           machine.
@@ -107,7 +107,7 @@ const Projects = () => {
 
       {/* followed projects */}
 
-      <h2>Projects made by following courses</h2>
+      <h2 className={classes.projectsH2}>Projects made by following courses</h2>
       <div className={classes.projectContainer}>
         <h3>Burger Shop React</h3>
         <p>
@@ -125,7 +125,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.projectContainer}>
-        <h3>Forkify - cooking recipes</h3>
+        <h3 className={classes.projectsH3}>Forkify - cooking recipes</h3>
         <p>
           App was done following that course: <br />
           <a href="https://www.udemy.com/course/the-complete-javascript-course/">
@@ -141,7 +141,7 @@ const Projects = () => {
       </div>
 
       <div className={classes.projectContainer}>
-        <h3>Mapty - pseudo training tracker </h3>
+        <h3 className={classes.projectsH3}>Mapty - pseudo training tracker </h3>
         <p>
           App was done following that course: <br />
           <a href="https://www.udemy.com/course/the-complete-javascript-course/">

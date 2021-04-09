@@ -25,9 +25,9 @@ import attentionToDetails from "../../assets/icons/attentionToDetails.png";
 const MySkills = () => {
   return (
     <div className={classes.mySkillsContainer}>
-      <h1>MY SKILLS</h1>
-      <h2>Hard Skills</h2>
-      <h3>Recently used technologies by me:</h3>
+      <h1 className={classes.skillsH1}>MY SKILLS</h1>
+      <h2 className={classes.skillsH2}>Hard Skills</h2>
+      <h3 className={classes.skillsH3}>Recently used technologies by me:</h3>
       <ul className={classes.unorderedList}>
         <li>
           <img className={classes.logo} src={jsLogo} alt="js logo" />
@@ -67,7 +67,7 @@ const MySkills = () => {
           <p> Node.js</p>
         </li>
       </ul>
-      <h2>Soft Skills</h2>
+      <h2 className={classes.skillsH2}>Soft Skills</h2>
       <p className={classes.mySkillsPElement}>
         In my academic career I had a chance to be a member of the teams, where
         we were working together on many different types of project. Most of
@@ -88,7 +88,7 @@ const MySkills = () => {
         gave me the great chance to polish my soft skills in different role,
         what was great experience.
       </p>
-      <h3>Some chosen softs skills:</h3>
+      <h3 className={classes.skillsH3}>Some chosen softs skills:</h3>
       <ul className={classes.unorderedList}>
         <li>
           <img

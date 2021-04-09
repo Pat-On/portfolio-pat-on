@@ -12,15 +12,10 @@ const HomePage = (props) => {
 
   return (
     <div className={classes.homePageContainer}>
-      <h1>
-        Hi, <br />
-        I'm PATRYK, <br />
-        Web Developer
-      </h1>
-      <h2>Seeking The Next Exciting Challenge</h2>
-      {/* <a href="#" class="myButton">
-        codecanyon
-      </a> */}
+      <h1 className={classes.titleH1}>Hi,</h1>
+      <h1 className={classes.titleH1}>I'm PATRYK,</h1>
+      <h1 className={classes.titleH1}>Web Developer</h1>
+      <h2 className={classes.titleH2}>Seeking The Next Exciting Challenge</h2>
       <button className={classes.myButton} onClick={toContactPage}>
         CONTACT ME
       </button>
