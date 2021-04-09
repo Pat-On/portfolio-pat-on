@@ -18,8 +18,12 @@ const HomePage = (props) => {
         Web Developer
       </h1>
       <h2>Seeking The Next Exciting Challenge</h2>
-
-      <button onClick={toContactPage}>CONTACT ME</button>
+      {/* <a href="#" class="myButton">
+        codecanyon
+      </a> */}
+      <button className={classes.myButton} onClick={toContactPage}>
+        CONTACT ME
+      </button>
     </div>
   );
 };
