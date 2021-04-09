@@ -24,7 +24,7 @@ import attentionToDetails from "../../assets/icons/attentionToDetails.png";
 
 const MySkills = () => {
   return (
-    <div className={classes.aboutPageContainer}>
+    <div className={classes.mySkillsContainer}>
       <h1>MY SKILLS</h1>
       <h2>Hard Skills</h2>
       <h3>Recently used technologies by me:</h3>
