@@ -1,5 +1,5 @@
 .Toolbar {
-    height: 56px;
+    height: 46px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: right;
-    padding: 0 20px;
+    padding: 0 10px;
     box-sizing: border-box;
     z-index: 90;
     padding-right: 10%;
@@ -24,3 +24,23 @@
         display: none;
     }
 } 
+
+
+@media  (max-width: 480px) and (min-width: 320px) {
+
+}
+
+@media (max-width: 700px) and (min-width: 481px){
+
+}
+@media (max-width: 1000px) and (min-width: 701px){
+
+
+}
+@media (min-width: 1001px) {
+.Toolbar {
+    padding-right: 20%;
+
+}
+
+}

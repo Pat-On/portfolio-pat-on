@@ -11,3 +11,9 @@
     width: 80%;
     text-align: center;
 }
+
+.aboutPElement {
+    font-size: 18;
+    font-weight: medium;
+    line-height: 2;
+}
