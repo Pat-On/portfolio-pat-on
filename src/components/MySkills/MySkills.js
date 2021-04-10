@@ -70,22 +70,22 @@ const MySkills = () => {
       <h2 className={classes.skillsH2}>Soft Skills</h2>
       <p className={classes.mySkillsPElement}>
         In my academic career I had a chance to be a member of the teams, where
-        we were working together on many different types of project. Most of
-        them were focused on volunteer-social projects, science projects and
-        cultural project.
+        we were working together on many different types of projects. Most of
+        them were focused on volunteer-social projects, science and cultural
+        project.
       </p>
       <p className={classes.mySkillsPElement}>
-        It was great chance to learn to work effectively under the pressure and
-        to get better understanding of other people. It was great chance to
+        It was a great chance to learn to work effectively under pressure and to
+        get a better understanding of other people. It was a great chance to
         develop my interpersonal and soft skills. My progress in this field gave
-        me chance to managing and supporting my colleagues, what was great
+        me the chance to manage and support my colleagues, what was a great
         chance to test my soft skills.
       </p>
       <p className={classes.mySkillsPElement}>
-        During my post academic experience I was traveling around the Europe
-        getting to know many different great people and gaining experience in
+        During my post academic experience I was traveling around Europe getting
+        to know many different great people and gaining experience in
         communication. My recent experience to work in customer service sector
-        gave me the great chance to polish my soft skills in different role,
+        gave me the great chance to polish my soft skills in a different role,
         what was great experience.
       </p>
       <h3 className={classes.skillsH3}>Some chosen softs skills:</h3>

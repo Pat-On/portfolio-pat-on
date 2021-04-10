@@ -7,8 +7,8 @@ const Contact = () => {
     <div className={classes.contactContainer}>
       <h1 className={classes.contactH1}>CONTACT</h1>
       <h3>
-        I am available for hire and open to any ideas of cooperation and to
-        learn new things
+        I am available for an immediate start and open to any ideas of
+        cooperation and to learn new things
       </h3>
 
       <ul className={classes.unorderedList}>
