@@ -9,12 +9,10 @@ const Resume = () => {
       {/* <p>
         <b>Thank You</b>
       </p> */}
-      <p>
-        Thank you for your time and interest. Please feel free to have a look at
-        my CV using the button below.
-      </p>
+      <p>Thank you for your time and interest.</p>
+      <p>Please feel free to have a look at my CV using the button below.</p>
 
-      <a href="https://drive.google.com/u/0/uc?id=1gOU1dMzAkWQmzc2m-B8a6zc22XSlp7DC&export=download">
+      <a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
         <button className={classes.myButton}>Find My CV HERE</button>
       </a>
     </div>

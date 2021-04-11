@@ -12,7 +12,10 @@ const Contact = () => {
       </h3>
 
       <ul className={classes.unorderedList}>
-        <li>E-mail: patryk.nowak@gmail.com</li>
+        <li>
+          E-mail:
+          <a href="mailto: patryk.nowak@gmail.com">patryk.nowak@gmail.com</a>
+        </li>
         <li>
           LinkedIn:
           <a
