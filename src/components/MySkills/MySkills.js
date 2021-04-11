@@ -69,24 +69,23 @@ const MySkills = () => {
       </ul>
       <h2 className={classes.skillsH2}>Soft Skills</h2>
       <p className={classes.mySkillsPElement}>
-        In my academic career I had a chance to be a member of the teams, where
-        we were working together on many different types of projects. Most of
-        them were focused on volunteer-social projects, science and cultural
-        project.
+        In my academic career I have been a member of many teams, where we were
+        working together on many different types of projects. Most of them were
+        focused on volunteer-social projects, science and cultural project.
       </p>
       <p className={classes.mySkillsPElement}>
         It was a great chance to learn to work effectively under pressure and to
-        get a better understanding of other people. It was a great chance to
-        develop my interpersonal and soft skills. My progress in this field gave
-        me the chance to manage and support my colleagues, what was a great
-        chance to test my soft skills.
+        get a better understanding of other people. This in turn really helped
+        me develop my interpersonal and soft skills. My progress in this field
+        gave me the chance to manage and support my colleagues, which was an
+        excellent opportunity to test out my soft skills.
       </p>
       <p className={classes.mySkillsPElement}>
-        During my post academic experience I was traveling around Europe getting
-        to know many different great people and gaining experience in
-        communication. My recent experience to work in customer service sector
-        gave me the great chance to polish my soft skills in a different role,
-        what was great experience.
+        During my post academic experience, I was traveling around Europe. I got
+        to meet and to know many different people and gained lots of experience
+        in communication. My recent experience was working in the customer
+        service industry, this gave me the chance to perfect my soft skills in a
+        different sector, which gave me invaluable experience.
       </p>
       <h3 className={classes.skillsH3}>Some chosen softs skills:</h3>
       <ul className={classes.unorderedList}>

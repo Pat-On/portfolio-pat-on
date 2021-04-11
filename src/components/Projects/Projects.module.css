@@ -6,11 +6,12 @@
 }
 
 .projectContainer {
-    border-bottom: 5px solid black;
+    /* border-bottom: 5px solid black; */
     margin: 10px 0 15px ;
     padding: 10px;
     background-color: #E0E0E0;
-
+    box-shadow: 5px 10px rgba(167, 162, 162, 0.1);
+    border-radius: 10px; 
 }
 
 

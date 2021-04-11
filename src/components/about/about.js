@@ -9,40 +9,41 @@ const About = () => {
 
       <img className={classes.profileImg} src={ProfilePhoto} alt="Profile" />
       <p className={classes.aboutPElement}>
-        I'm a full stack developer who started from non IT background. I came
-        from academic sector, where{" "}
+        I'm a full stack developer who started from a non IT background. I came
+        from the academic sector, where{" "}
         <b>
-          during my ph.d. studies I learnt methodological and analytical
-          approach to solve problems.
+          during my P.H.D studies I have learnt a methodological and analytical
+          approach to solving problems.
         </b>
       </p>
 
       <p className={classes.aboutPElement}>
-        <b>I have appetite of curiosity in new technologies,</b> which lead to
-        my persistence and enjoyment to learn new things which then enables me
-        to teach others, something I enjoy doing as well.
+        <b>I have a burning passion to learn new technologies, </b> which in
+        turn makes me a very persistent and a consistent learner. I also enjoy
+        teaching all the things that I have learnt and get a lot of fulfilment
+        from this.
       </p>
 
       <p className={classes.aboutPElement}>
-        <b>I am a well organized person,</b> who is able to work independently
-        as well as in a team. This is reflected in the achievement of my past
-        career, where my team and I always produced high standards result and
-        achieved the goal on time.
+        <b>I am a very organized person, </b> who can work independently, I also
+        work well in a team. This is reflected in my past achievements in my
+        career, where my team and I always produced high standards, got the
+        result desired and achieved the goal on time.
       </p>
 
       <p className={classes.aboutPElement}>
         <b>
-          One of my proudest achievement is the fact that I received the Grant
-          of Ministry of Science and Higher Education of Republic of Poland{" "}
+          My proudest achievement is that I received the Grant of Ministry of
+          Science and Higher Education of Republic of Poland (only 1000 students
+          were awarded) twice during my studies at university.{" "}
         </b>
-        (only 1000 students were awarded) twice during my studies at university.
-        To achieve this, I set and focused on the goal, plan my time well and I
-        was able to work under pressure.
+        To achieve this, I set and focused on the goal, planned my time well and
+        I was able to work under immense pressure.
       </p>
       <p className={classes.aboutPElement}>
         <b>
-          I'm interested to find work in IT sector, I look forward to work with
-          a dynamic team full of positive people and the challenges.
+          I have a burning desire to work in the tech industry, I am excited to
+          work with a dynamic team full of positive likeminded people.
         </b>
       </p>
     </div>
