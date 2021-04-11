@@ -13,7 +13,7 @@ const About = () => {
         from the academic sector, where{" "}
         <b>
           during my P.H.D studies I have learnt a methodological and analytical
-          approach to solving problems.
+          approach to solve problems.
         </b>
       </p>
 
@@ -28,7 +28,7 @@ const About = () => {
         <b>I am a very organized person, </b> who can work independently, I also
         work well in a team. This is reflected in my past achievements in my
         career, where my team and I always produced high standards, got the
-        result desired and achieved the goal on time.
+        result desired and achieved goals on time.
       </p>
 
       <p className={classes.aboutPElement}>

@@ -76,9 +76,9 @@ const MySkills = () => {
       <p className={classes.mySkillsPElement}>
         It was a great chance to learn to work effectively under pressure and to
         get a better understanding of other people. This in turn really helped
-        me develop my interpersonal and soft skills. My progress in this field
-        gave me the chance to manage and support my colleagues, which was an
-        excellent opportunity to test out my soft skills.
+        me to develop my interpersonal and soft skills. My progress in this
+        field gave me the chance to manage and support my colleagues, which was
+        an excellent opportunity to test out my soft skills.
       </p>
       <p className={classes.mySkillsPElement}>
         During my post academic experience, I was traveling around Europe. I got

@@ -9,7 +9,7 @@ const Resume = () => {
       {/* <p>
         <b>Thank You</b>
       </p> */}
-      <p>Thank you for your time and interest.</p>
+      <p>Thank You for your time and interest.</p>
       <p>Please feel free to have a look at my CV using the button below.</p>
 
       <a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
