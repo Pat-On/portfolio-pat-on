@@ -23,10 +23,7 @@ const Projects = () => {
 
       <div className={classes.projectContainer}>
         <h3 className={classes.projectsH3}>Portfolio</h3>
-        <p>
-          Pure Java Script project, which is using the View Port Model.
-          Application is using REST API 'TV MAZE' to fetch data.
-        </p>
+        <p>React Application</p>
 
         <a href="https://patryk-nowak-portfolio.netlify.app/">Live Page</a>
         <a href="https://github.com/Pat-On/portfolio-pat-on">
