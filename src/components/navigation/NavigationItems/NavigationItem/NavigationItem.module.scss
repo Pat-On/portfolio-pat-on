@@ -19,6 +19,14 @@
     border-radius: 2%;
     border-bottom: 1px solid $dark-black;
   }
+
+  a:hover,
+  a:active,
+  a.active {
+    background-color: rgba($blue, 0.5);
+    transform: scaleY(1);
+    color: $dark-blue;
+  }
 }
 
 // .navigationItem {
