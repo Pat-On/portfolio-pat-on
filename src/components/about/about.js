@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg";
-import classes from "./about.module.css";
+import classes from "./about.module.scss";
 
 const About = () => {
   return (

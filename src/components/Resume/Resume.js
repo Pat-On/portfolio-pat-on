@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./Resume.module.css";
+import classes from "./Resume.module.scss";
 
 const Resume = () => {
   return (

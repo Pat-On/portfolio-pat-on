@@ -1,6 +1,6 @@
 import React from "react";
 
-import classes from "./MySkills.module.css";
+import classes from "./MySkills.module.scss";
 
 import gitLogo from "../../assets/icons/git.png";
 import css3Logo from "../../assets/icons/css3.png";

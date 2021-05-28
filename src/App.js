@@ -10,7 +10,7 @@ import Resume from "./components/Resume/Resume";
 
 import Layout from "./hoc/Layout/Layout";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   //temporary added DIV to reuse old style from react

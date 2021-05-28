@@ -4,7 +4,7 @@ import Aux from "../Auxillary/Auxillary";
 import Toolbar from "../../components/navigation/Toolbar/Toolbar";
 import SideDrawer from "../../components/navigation/Sidedrwer/Sidedrawer";
 
-import classes from "./Layout.module.css";
+import classes from "./Layout.module.scss";
 
 const Layout = (props) => {
   //!TODO SIDE DRAWER

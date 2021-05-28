@@ -1,7 +1,7 @@
 import React from "react";
 // import { NavLink } from "react-router-dom";
 
-import classes from "./homePage.module.css";
+import classes from "./homePage.module.scss";
 
 const HomePage = (props) => {
   // temporary
