@@ -1,4 +1,14 @@
 .Content {
-    margin-top: 72px;
-    /* background-color: pink; */
+  grid-column: main-start / main-end;
+  grid-row: 2 / 4;
+
+  background-color: lightcoral;
+  // margin-top: 72px;
+  /* background-color: pink; */
+}
+
+footer {
+  background-color: lightgreen;
+  grid-column: main-start / main-end;
+  grid-row: 4 / 5;
 }

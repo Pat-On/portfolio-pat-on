@@ -15,7 +15,7 @@ import "./App.scss";
 function App() {
   //temporary added DIV to reuse old style from react
   return (
-    <div className="App">
+    <div className="App container">
       <Layout>
         <Switch>
           <Route path="/about" render={(props) => <About {...props} />} />

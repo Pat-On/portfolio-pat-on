@@ -1,10 +1,13 @@
 .Toolbar {
-  height: 46px;
+  grid-column: main-start / main-end;
+  background-color: lightblue;
+
+  // height: 46px;
   width: 100%;
   /* position: fixed; */
   top: 0;
   left: 0;
-  background-color: white;
+  // background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: right;
