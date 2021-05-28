@@ -2,9 +2,30 @@ import React from "react";
 import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg";
 import classes from "./about.module.scss";
 
-const About = () => {
+const About = (props) => {
+  const toContactPage = (event) => {
+    event.preventDefault();
+    props.history.push("/contact");
+  };
   return (
     <div className={classes.aboutPageContainer}>
+      <div className={classes.homePageContainer}>
+        <h1 className={classes.titleH1}>Hi,</h1>
+        <h1 className={classes.titleH1}>I'm PATRYK,</h1>
+        <h1 className={classes.titleH1}>Web Developer</h1>
+        <h2 className={classes.titleH2}>Seeking The Next Exciting Challenge</h2>
+        <button className={classes.myButton} onClick={toContactPage}>
+          CONTACT ME
+        </button>
+      </div>
+
+      <p>
+        ********************************************************************************
+      </p>
+
+      <p>
+        ********************************************************************************
+      </p>
       <h1 className={classes.aboutTitle}>ABOUT</h1>
 
       <img className={classes.profileImg} src={ProfilePhoto} alt="Profile" />
@@ -46,6 +67,23 @@ const About = () => {
           work with a dynamic team full of positive likeminded people.
         </b>
       </p>
+
+      <p>
+        ********************************************************************************
+      </p>
+
+      <div className={classes.resumePageContainer}>
+        <h1 className={classes.resumeH1}>RESUME</h1>
+        {/* <p>
+        <b>Thank You</b>
+      </p> */}
+        <p>Thank You for your time and interest.</p>
+        <p>Please feel free to have a look at my CV using the button below.</p>
+
+        <a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
+          <button className={classes.myButton}>Find My CV HERE</button>
+        </a>
+      </div>
     </div>
   );
 };

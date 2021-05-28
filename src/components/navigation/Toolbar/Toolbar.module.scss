@@ -1,25 +1,25 @@
-.Toolbar {
-  grid-column: main-start / main-end;
-  background-color: lightblue;
+@import "../../../assets/styles/variables";
 
-  // height: 46px;
+.toolbar {
+  grid-column: main-start / main-end;
+  background-color: $light-blue;
   width: 100%;
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-  // background-color: white;
+
   display: flex;
-  justify-content: space-between;
-  align-items: right;
-  padding: 0 10px;
-  box-sizing: border-box;
-  z-index: 90;
-  padding-right: 10%;
+  // flex-flow: row;
+  // align-content: flex-end;
+  justify-content: flex-end;
+
+  .nav {
+    width: 100%;
+  }
 }
 
-.Toolbar nav {
-  height: 100%;
-  margin-left: auto;
+// .DesktopOnly {
+//   width: 50%;
+// }
+
+.toolbar nav {
 }
 @media (max-width: 499px) {
   .DesktopOnly {
@@ -35,7 +35,7 @@
 @media (max-width: 1000px) and (min-width: 701px) {
 }
 @media (min-width: 1001px) {
-  .Toolbar {
+  .toolbar {
     padding-right: 20%;
   }
 }

@@ -6,9 +6,9 @@ import classes from "./Toolbar.module.scss";
 
 const Toolbar = (props) => {
   return (
-    <header className={classes.Toolbar}>
+    <header className={classes.toolbar}>
       <DrawerToggle clicked={props.drawerToggleClicked} />
-      <nav className={classes.DesktopOnly}>
+      <nav className={classes.desktopOnly}>
         <NavigationItems />
       </nav>
     </header>

@@ -22,7 +22,7 @@ const Layout = (props) => {
       <Toolbar drawerToggleClicked={sideDrawerToggleHandler} />
 
       {/* <SideDrawer open={sideDrawerIsVisible} closed={sideDrawerClosedHandler} /> */}
-      <main className={classes.Content}>{props.children}</main>
+      <main className={classes.content}>{props.children}</main>
       <footer>THIS IS FOOTER</footer>
     </Aux>
   );
