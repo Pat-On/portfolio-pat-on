@@ -15,7 +15,7 @@
     minmax(30vh, min-content)
     minmax(30vh, min-content)
     minmax(8rem, min-content);
-  grid-template-columns: 1fr [main-start] 48% 48% [main-end] 1fr;
+  grid-template-columns: 1fr [main-start] 48vw 48vw [main-end] 1fr;
 
   // grid-gap: 8rem;
 }
