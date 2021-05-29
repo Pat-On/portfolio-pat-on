@@ -12,7 +12,7 @@
   display: grid;
   grid-template-rows:
     minmax(8rem, min-content)
-    minmax(30vh, min-content)
+    minmax(45vh, min-content)
     minmax(30vh, min-content)
     minmax(8rem, min-content);
   grid-template-columns: 1fr [main-start] 45vw 45vw [main-end] 1fr;

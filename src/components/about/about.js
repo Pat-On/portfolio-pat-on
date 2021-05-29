@@ -159,12 +159,12 @@ const About = (props) => {
             fulfilment from this.
           </p>
 
-          <p className={classes.aboutPElement}>
+          {/* <p className={classes.aboutPElement}>
             <b>I am a very organized person, </b> who can work independently, I
             also work well in a team. This is reflected in my past achievements
             in my career, where my team and I always produced high standards,
             got the result desired and achieved goals on time.
-          </p>
+          </p> */}
 
           <p className={classes.aboutPElement}>
             <b>
@@ -183,19 +183,25 @@ const About = (props) => {
           </p>
         </div>
       </div>
-
-      <div className={classes.resume}>
-        <h1 className={classes.resume__H1}>RESUME</h1>
-
-        <p>Thank You for your time and interest.</p>
-        <p>Please feel free to have a look at my CV using the button below.</p>
-
-        <a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
-          <button className={classes.myButton}>Find My CV HERE</button>
-        </a>
-      </div>
     </div>
   );
 };
 
 export default About;
+/*
+<div className={classes.resume}>
+<h1 className={classes.resume__h1}>RESUME</h1>
+
+<p>Thank You for your time and interest.</p>
+<p>Please feel free to have a look at my CV using the button below.</p>
+
+<a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
+  Find My CV HERE
+</a>
+
+ <a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
+  <button className={classes.myButton}>Find My CV HERE</button>
+</a> 
+</div>
+
+*/
