@@ -22,6 +22,10 @@ import creativity from "../../assets/icons/creativity.png";
 import analyticalThinking from "../../assets/icons/analyticalThinking.png";
 import attentionToDetails from "../../assets/icons/attentionToDetails.png";
 
+// SLQ ICON made by Free  from flaticon.com
+// postgresql by Julien Monty from icon-icon.com
+// sass by julien monty
+
 const MySkills = () => {
   return (
     <div className={classes.mySkillsContainer}>
