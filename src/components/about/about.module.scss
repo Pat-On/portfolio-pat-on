@@ -13,6 +13,8 @@
     grid-column: 1 / -1;
     grid-row: 1 / 2;
 
+    z-index: 1;
+
     background-color: $light-blue;
     width: 100%;
     height: 100%;
@@ -27,6 +29,7 @@
   align-self: center;
 
   text-align: right;
+  z-index: 10;
 
   h1 {
     font-family: $font-display;
