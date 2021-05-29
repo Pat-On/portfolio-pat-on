@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Particles from "react-particles-js";
+
 import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg";
 import classes from "./about.module.scss";
 
@@ -7,15 +9,129 @@ const About = (props) => {
     event.preventDefault();
     props.history.push("/contact");
   };
+
   return (
     <div className={classes.container}>
+      <Particles
+        className={classes.container__particles}
+        params={{
+          background: {
+            color: {
+              value: "#dbe2ef",
+            },
+            // position: "50% 50%",
+            // repeat: "no-repeat",
+            // size: "cover",
+          },
+          // fullScreen: {
+          //   enable: true,
+          //   zIndex: 1,
+          // },
+          interactivity: {
+            events: {
+              onClick: {
+                enable: true,
+                mode: "push",
+              },
+              onHover: {
+                enable: true,
+                mode: "grab",
+                parallax: {
+                  enable: true,
+                  force: 60,
+                },
+              },
+            },
+            modes: {
+              bubble: {
+                distance: 400,
+                duration: 2,
+                opacity: 0.8,
+                size: 40,
+              },
+              grab: {
+                distance: 400,
+              },
+              light: {
+                shadow: {
+                  color: {
+                    value: "#185adb",
+                  },
+                },
+              },
+            },
+          },
+          particles: {
+            color: {
+              value: "#185adb",
+            },
+            links: {
+              color: {
+                value: "#185adb",
+              },
+              distance: 150,
+              enable: true,
+              opacity: 0.4,
+            },
+            move: {
+              attract: {
+                rotate: {
+                  x: 600,
+                  y: 1200,
+                },
+              },
+              enable: true,
+              path: {},
+              outModes: {
+                bottom: "out",
+                left: "out",
+                right: "out",
+                top: "out",
+              },
+            },
+            number: {
+              density: {
+                enable: true,
+              },
+            },
+            opacity: {
+              random: {
+                enable: true,
+              },
+              value: {
+                min: 0.1,
+                max: 0.5,
+              },
+              animation: {
+                enable: true,
+                speed: 3,
+                minimumValue: 0.1,
+              },
+            },
+            size: {
+              random: {
+                enable: true,
+              },
+              value: {
+                min: 0.1,
+                max: 10,
+              },
+              animation: {
+                enable: true,
+                speed: 20,
+                minimumValue: 0.1,
+              },
+            },
+          },
+        }}
+      />
       <div className={classes.welcome}>
         <h1 className={classes.welcome__titleH1}>Hi,</h1>
         <h1 className={classes.welcome__titleH1}>I'm PATRYK,</h1>
-        <h1 className={classes.welcome__titleH1}>Web Developer</h1>
-        <h2 className={classes.welcome__titleH2}>
+        <h2 className={classes.welcome__titleH1}>Web Developer</h2>
+        {/* <h2 className={classes.welcome__titleH2}>
           Seeking The Next Exciting Challenge
-        </h2>
+        </h2> */}
         <button className={classes.welcome__myButton} onClick={toContactPage}>
           CONTACT ME
         </button>
@@ -60,7 +176,7 @@ const About = (props) => {
         <p className={classes.aboutPElement}>
           <b>
             I have a burning desire to work in the tech industry, I am excited
-            to work with a dynamic team full of positive likeminded people.
+            to work with a dynamic team full of positive like-minded people.
           </b>
         </p>
       </div>
