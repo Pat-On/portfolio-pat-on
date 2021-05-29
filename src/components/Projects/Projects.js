@@ -2,6 +2,8 @@ import React from "react";
 
 import classes from "./Projects.module.scss";
 
+import fotoTvShowProject from "../../assets/projectsPicture/tvShowProject.jpg";
+
 const Projects = () => {
   return (
     <div className={classes.projectsPage}>
@@ -11,17 +13,32 @@ const Projects = () => {
       </h2>
       <div className={classes.projectsPage__myProjectsBigger}>
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>TV Show Project</h3>
-          <p>
+          <img
+            h3
+            className={classes.projectContainer__img}
+            src={fotoTvShowProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>TV Show Project</h3>
+          <p className={classes.projectContainer__description}>
             Pure Java Script project, which is using the View Port Model.
             Application is using REST API 'TV MAZE' to fetch data.{" "}
           </p>
 
-          <a href="https://cyf-patrykn-tv.netlify.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/tv-show-dom-project">
+          <a
+            className={classes.projectContainer__liveLink}
+            href="https://cyf-patrykn-tv.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__githubLink}
+            href="https://github.com/Pat-On/tv-show-dom-project"
+          >
             Source Code - GitHub
           </a>
         </div>
+
         <div className={classes.projectContainer}>
           <h3 className={classes.projectsH3}>Portfolio</h3>
           <p>React Application</p>

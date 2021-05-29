@@ -73,20 +73,68 @@
   }
 }
 
-// .projectsPageContainer {
-//   width: 90%;
-//   /* padding-top: 1rem; */
-//   margin: auto;
-//   text-align: center;
-// }
-
 .projectContainer {
-  /* border-bottom: 5px solid black; */
-  margin: 10px 0 15px;
-  padding: 10px;
+  display: grid;
+
+  width: 30rem;
+
+  grid-template-rows: min-content min-content min-content;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+
+  grid-row-gap: 3.5rem;
+
+  // DEV VALUE
+  margin: 10px 30vh 15px;
   background-color: #e0e0e0;
   box-shadow: 5px 10px rgba(167, 162, 162, 0.1);
   border-radius: 10px;
+
+  &__img {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__h3 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    z-index: 5;
+
+    justify-self: center;
+    align-self: end;
+
+    font-family: $font-display;
+    background-color: $dark-blue;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.25rem;
+    font-weight: 400;
+    width: 80%;
+    transform: translateY(50%);
+  }
+
+  &__description {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    font-family: $font-primary;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+  &__link {
+    &__live {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+    &__github {
+      grid-column: 2 / 3;
+      grid-row: 3 / 4;
+    }
+  }
 }
 
 // .projectContainer > h3 {
