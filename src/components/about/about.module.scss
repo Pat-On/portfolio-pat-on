@@ -6,7 +6,8 @@
   grid-template-rows: 90vh 1fr min-content;
   grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
 
-  grid-row-gap: 3vh;
+  grid-row-gap: 2vh;
+  margin-bottom: 18rem;
 
   &__particles {
     grid-column: 1 / -1;
@@ -89,6 +90,8 @@
 
     font-size: 4rem;
 
+    margin-bottom: 2rem;
+
     &::before,
     &::after {
       content: "";
@@ -104,7 +107,7 @@
     grid-column: 2 / 3;
     grid-row: 2 / 3;
 
-    width: 80%;
+    width: 65%;
     height: auto;
     justify-self: center;
     align-self: center;
@@ -113,7 +116,7 @@
     transition: all 0.2s;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.2);
     }
   }
 

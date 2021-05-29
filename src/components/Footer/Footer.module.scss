@@ -1,4 +1,57 @@
 @import "../../assets/styles/variables";
 
 .footer {
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.25);
+
+  display: grid;
+  grid-template-rows: 1fr 0.5fr;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+  justify-items: center;
+
+  &__listOfIcons {
+    list-style: none;
+
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    display: flex;
+
+    img {
+      display: block;
+      height: 3.5rem;
+      width: 3.5rem;
+      margin: 0 1rem;
+    }
+  }
+
+  &__cv:link,
+  &__cv:visited {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    background-color: $gold;
+    color: $dark-blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+
+    font-family: $font-display;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: $light-gold;
+    }
+  }
+
+  &__legal {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    font-family: $font-primary;
+    font-size: 1.5rem;
+  }
 }
