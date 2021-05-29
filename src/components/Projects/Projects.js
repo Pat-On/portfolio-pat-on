@@ -3,6 +3,15 @@ import React from "react";
 import classes from "./Projects.module.scss";
 
 import fotoTvShowProject from "../../assets/projectsPicture/tvShowProject.jpg";
+import babyNameFinderProject from "../../assets/projectsPicture/babyNameFinderProject.jpg";
+import burgerProject from "../../assets/projectsPicture/burgerProject.jpg";
+import countriesProject from "../../assets/projectsPicture/countriesProject.jpg";
+import cyfhotelproject from "../../assets/projectsPicture/cyfhotelproject.jpg";
+import forkifyProject from "../../assets/projectsPicture/forkifyProject.jpg";
+import highScoreTableProj from "../../assets/projectsPicture/highScoreTableProj.jpg";
+import jobListingProject from "../../assets/projectsPicture/jobListingProject.jpg";
+import maptyProject from "../../assets/projectsPicture/maptyProject.jpg";
+import portfolioProject from "../../assets/projectsPicture/portfolioProject.jpg";
 
 const Projects = () => {
   return (
@@ -14,7 +23,6 @@ const Projects = () => {
       <div className={classes.projectsPage__myProjectsBigger}>
         <div className={classes.projectContainer}>
           <img
-            h3
             className={classes.projectContainer__img}
             src={fotoTvShowProject}
             alt=""
@@ -26,13 +34,13 @@ const Projects = () => {
           </p>
 
           <a
-            className={classes.projectContainer__liveLink}
+            className={classes.projectContainer__link__live}
             href="https://cyf-patrykn-tv.netlify.app/"
           >
             Live Page
           </a>
           <a
-            className={classes.projectContainer__githubLink}
+            className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/tv-show-dom-project"
           >
             Source Code - GitHub
@@ -40,11 +48,26 @@ const Projects = () => {
         </div>
 
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>Portfolio</h3>
-          <p>React Application</p>
+          <img
+            className={classes.projectContainer__img}
+            src={portfolioProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>Portfolio</h3>
+          <p className={classes.projectContainer__description}>
+            React Application
+          </p>
 
-          <a href="https://patryk-nowak-portfolio.netlify.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/portfolio-pat-on">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://patryk-nowak-portfolio.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/portfolio-pat-on"
+          >
             Source Code - GitHub
           </a>
         </div>
@@ -58,68 +81,131 @@ const Projects = () => {
 
       <div className={classes.projectsPage__myProjectsSmaller}>
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>Job Listing</h3>
-          <p>
+          <img
+            className={classes.projectContainer__img}
+            src={jobListingProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>Job Listing</h3>
+          <p className={classes.projectContainer__description}>
             Simple application made in react, which is fetching the data from
             REST API
           </p>
 
-          <a href="https://cyf-pat-on-jobs.netlify.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/cyf-job-listing-react">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://cyf-pat-on-jobs.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/cyf-job-listing-react"
+          >
             Source Code - GitHub
           </a>
         </div>
 
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>Countries</h3>
-          <p>
+          <img
+            className={classes.projectContainer__img}
+            src={countriesProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>Countries</h3>
+          <p className={classes.projectContainer__description}>
             Simple application made in react, which is using REST API 'REST
             Countries' to fetch data.
           </p>
 
-          <a href="https://cyf-pat-on-countries-react.netlify.app/">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://cyf-pat-on-countries-react.netlify.app/"
+          >
             Live Page
           </a>
-          <a href="https://github.com/Pat-On/cyf-countries-react">
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/cyf-countries-react"
+          >
             Source Code - GitHub
           </a>
         </div>
 
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>High Score Table</h3>
-          <p>
+          <img
+            className={classes.projectContainer__img}
+            src={highScoreTableProj}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>High Score Table</h3>
+          <p className={classes.projectContainer__description}>
             Simple application made in react, which is using data stored on
             local machine.
           </p>
 
-          <a href="https://cyf-pat-on-scores.netlify.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/high-scores-react">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://cyf-pat-on-scores.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/high-scores-react"
+          >
             Source Code - GitHub
           </a>
         </div>
 
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>Hotel Page</h3>
-          <p>
+          <img
+            className={classes.projectContainer__img}
+            src={cyfhotelproject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>Hotel Page</h3>
+          <p className={classes.projectContainer__description}>
             Simple application made in react, which is using data stored on
             local machine.
           </p>
 
-          <a href="https://cyf-pat-on-hotel-react.netlify.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/cyf-hotel-react">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://cyf-pat-on-hotel-react.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/cyf-hotel-react"
+          >
             Source Code - GitHub
           </a>
         </div>
 
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>Baby name finder</h3>
-          <p>
+          <img
+            className={classes.projectContainer__img}
+            src={babyNameFinderProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>Baby name finder</h3>
+          <p className={classes.projectContainer__description}>
             Simple application made in react, which is using data stored on
             local machine.
           </p>
 
-          <a href="https://cyf-pat-on-baby-names.netlify.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/cyf-baby-names-react">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://cyf-pat-on-baby-names.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/cyf-baby-names-react"
+          >
             Source Code - GitHub
           </a>
         </div>
@@ -130,8 +216,13 @@ const Projects = () => {
       </h2>
       <div className={classes.projectsPage__projectFollowedCourses}>
         <div className={classes.projectContainer}>
-          <h3>Burger Shop React</h3>
-          <p>
+          <img
+            className={classes.projectContainer__img}
+            src={burgerProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>Burger Shop React</h3>
+          <p className={classes.projectContainer__description}>
             App was done following that course: <br />
             <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
               Maximilian Schwarzmüller, React - The Complete Guide (incl Hooks,
@@ -139,15 +230,30 @@ const Projects = () => {
             </a>
           </p>
 
-          <a href="https://react-my-burger-6df65.web.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/burger-shop-react">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://react-my-burger-6df65.web.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/burger-shop-react"
+          >
             Source Code - GitHub
           </a>
         </div>
 
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>Forkify - cooking recipes</h3>
-          <p>
+          <img
+            className={classes.projectContainer__img}
+            src={forkifyProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>
+            Forkify - cooking recipes
+          </h3>
+          <p className={classes.projectContainer__description}>
             App was done following that course: <br />
             <a href="https://www.udemy.com/course/the-complete-javascript-course/">
               Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
@@ -155,17 +261,30 @@ const Projects = () => {
             </a>
           </p>
 
-          <a href="https://forkify-patryk.netlify.app/">Live Page</a>
-          <a href="https://github.com/Pat-On/studyProjectForkify">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://forkify-patryk.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/studyProjectForkify"
+          >
             Source Code - GitHub
           </a>
         </div>
 
         <div className={classes.projectContainer}>
-          <h3 className={classes.projectsH3}>
+          <img
+            className={classes.projectContainer__img}
+            src={maptyProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>
             Mapty - pseudo training tracker{" "}
           </h3>
-          <p>
+          <p className={classes.projectContainer__description}>
             App was done following that course: <br />
             <a href="https://www.udemy.com/course/the-complete-javascript-course/">
               Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
@@ -173,8 +292,16 @@ const Projects = () => {
             </a>
           </p>
 
-          <a href="https://pat-on.github.io/StudyProjectMaptyApp/">Live Page</a>
-          <a href="https://github.com/Pat-On/StudyProjectMaptyApp">
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://pat-on.github.io/StudyProjectMaptyApp/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/StudyProjectMaptyApp"
+          >
             Source Code - GitHub
           </a>
         </div>
