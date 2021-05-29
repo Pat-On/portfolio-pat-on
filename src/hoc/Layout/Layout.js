@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Aux from "../Auxillary/Auxillary";
 import Toolbar from "../../components/navigation/Toolbar/Toolbar";
 import SideDrawer from "../../components/navigation/Sidedrwer/Sidedrawer";
+import Footer from "../../components/Footer/Footer";
 
 import classes from "./Layout.module.scss";
 
@@ -21,7 +22,7 @@ const Layout = (props) => {
     <Aux>
       <Toolbar drawerToggleClicked={sideDrawerToggleHandler} />
       <main className={classes.content}>{props.children}</main>
-      <footer>THIS IS FOOTER</footer>
+      <Footer />
     </Aux>
   );
 };
