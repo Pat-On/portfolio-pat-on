@@ -11,13 +11,27 @@ const Footer = (props) => {
     <footer className={classes.footer}>
       <ul className={classes.footer__listOfIcons}>
         <li>
-          <img src={emailLogo} alt="Email icon" />
+          <a className={classes.links} href="mailto: patryk.nowak@gmail.com">
+            <img src={emailLogo} alt="Email icon" />
+          </a>
         </li>
         <li>
-          <img src={githubLogo} alt="Git Hub logo" />
+          <a
+            className={classes.links}
+            href="https://github.com/Pat-On"
+            target="_blank"
+          >
+            <img src={githubLogo} alt="Git Hub logo" />
+          </a>
         </li>
         <li>
-          <img src={linkedInLogo} alt="LinkedIn logo" />
+          <a
+            className={classes.links}
+            target="_blank"
+            href="https://www.linkedin.com/in/patryknowak1990/"
+          >
+            <img src={linkedInLogo} alt="LinkedIn logo" />
+          </a>
         </li>
       </ul>
 
