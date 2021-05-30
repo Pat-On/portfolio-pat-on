@@ -6,6 +6,9 @@
 
   text-align: center;
 
+  @media only screen and (max-width: 800px) {
+    margin: 0.5rem;
+  }
   a:link,
   a:visited {
     height: 20%;
@@ -26,11 +29,5 @@
     background-color: rgba($blue, 0.5);
     transform: scaleY(1);
     color: $dark-blue;
-  }
-}
-
-@media (max-width: 800px) {
-  .navigationItem {
-    margin: 0.5rem;
   }
 }
