@@ -1,0 +1,41 @@
+@import "../../../../assets/styles/variables";
+
+.navigationItem {
+  display: inline-block;
+  width: 18rem;
+  font-family: $font-display;
+  font-weight: 400;
+  text-align: center;
+
+  @media only screen and (max-width: 800px) {
+    margin: 0.5rem;
+  }
+  a:link,
+  a:visited {
+    height: 20%;
+    background-color: $light-blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem 3rem;
+    margin: 0 1rem;
+
+    border-radius: 2%;
+    border-bottom: 1px solid $dark-black;
+  }
+
+  a:hover,
+  a:active,
+  a.active {
+    background-color: rgba($blue, 0.5);
+    transform: scaleY(1);
+    color: $dark-blue;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigationItem {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+}

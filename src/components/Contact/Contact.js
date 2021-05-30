@@ -1,17 +1,17 @@
 import React from "react";
 
-import classes from "./Contact.module.css";
+import classes from "./Contact.module.scss";
 
 const Contact = () => {
   return (
     <div className={classes.contactContainer}>
-      <h1 className={classes.contactH1}>CONTACT</h1>
-      <h3>
+      <h1 className={classes.contactContainer__h1}>CONTACT</h1>
+      <h3 className={classes.contactContainer__h3}>
         I am available for an immediate start and open to any ideas of
         cooperation and to learn new things.
       </h3>
 
-      <ul className={classes.unorderedList}>
+      <ul className={classes.contactContainer__list}>
         <li>
           E-mail:
           <a className={classes.links} href="mailto: patryk.nowak@gmail.com">
@@ -21,6 +21,8 @@ const Contact = () => {
         <li>
           LinkedIn:
           <a
+            rel="noreferrer"
+            target="_blank"
             className={classes.links}
             href="https://www.linkedin.com/in/patryknowak1990/"
           >
@@ -29,13 +31,23 @@ const Contact = () => {
         </li>
         <li>
           GitHub:
-          <a className={classes.links} href="https://github.com/Pat-On">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className={classes.links}
+            href="https://github.com/Pat-On"
+          >
             Pat-On
           </a>
         </li>
         <li>
           LeetCode:
-          <a className={classes.links} href="https://leetcode.com/Pat-On/">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            className={classes.links}
+            href="https://leetcode.com/Pat-On/"
+          >
             Pat-On
           </a>
         </li>

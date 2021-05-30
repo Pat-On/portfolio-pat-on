@@ -1,0 +1,21 @@
+@import "../../assets/styles/variables";
+
+.content {
+  grid-column: main-start / main-end;
+  grid-row: 2 / 4;
+
+  background-color: $light-blue;
+  // margin-top: 72px;
+  /* background-color: pink; */
+
+  // display: grid;
+  // grid-template-rows: 1fr 1fr 1fr 1fr;
+  // grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+footer {
+  background-color: $blue;
+  background-color: $light-blue;
+  grid-column: main-start / main-end;
+  grid-row: 4 / 5;
+}
