@@ -21,6 +21,7 @@ const Contact = () => {
         <li>
           LinkedIn:
           <a
+            rel="noreferrer"
             target="_blank"
             className={classes.links}
             href="https://www.linkedin.com/in/patryknowak1990/"
@@ -31,6 +32,7 @@ const Contact = () => {
         <li>
           GitHub:
           <a
+            rel="noreferrer"
             target="_blank"
             className={classes.links}
             href="https://github.com/Pat-On"
@@ -41,6 +43,7 @@ const Contact = () => {
         <li>
           LeetCode:
           <a
+            rel="noreferrer"
             target="_blank"
             className={classes.links}
             href="https://leetcode.com/Pat-On/"

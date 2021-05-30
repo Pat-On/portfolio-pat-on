@@ -37,6 +37,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://sign-up-form-patryk-nowak.netlify.app/"
           >
@@ -44,6 +45,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/signup-form-assessment"
           >
@@ -64,6 +66,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://patryk-nowak-portfolio.netlify.app/"
           >
@@ -71,6 +74,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/portfolio-pat-on"
           >
@@ -91,6 +95,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://cyf-patrykn-tv.netlify.app/"
           >
@@ -98,6 +103,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/tv-show-dom-project"
           >
@@ -127,6 +133,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-jobs.netlify.app/"
           >
@@ -134,6 +141,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-job-listing-react"
           >
@@ -155,6 +163,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-countries-react.netlify.app/"
           >
@@ -162,6 +171,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-countries-react"
           >
@@ -183,6 +193,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-scores.netlify.app/"
           >
@@ -190,6 +201,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/high-scores-react"
           >
@@ -211,6 +223,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-hotel-react.netlify.app/"
           >
@@ -218,6 +231,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-hotel-react"
           >
@@ -239,6 +253,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-baby-names.netlify.app/"
           >
@@ -246,6 +261,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-baby-names-react"
           >
@@ -269,6 +285,7 @@ const Projects = () => {
             App was done following that course: <br />
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
             >
               Maximilian Schwarzmüller, React - The Complete Guide (incl Hooks,
@@ -278,6 +295,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://react-my-burger-6df65.web.app/"
           >
@@ -285,6 +303,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/burger-shop-react"
           >
@@ -305,6 +324,7 @@ const Projects = () => {
             App was done following that course: <br />
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.udemy.com/course/the-complete-javascript-course/"
             >
               Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
@@ -314,6 +334,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://forkify-patryk.netlify.app/"
           >
@@ -321,6 +342,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/studyProjectForkify"
           >
@@ -341,6 +363,7 @@ const Projects = () => {
             App was done following that course: <br />
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.udemy.com/course/the-complete-javascript-course/"
             >
               Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
@@ -350,6 +373,7 @@ const Projects = () => {
 
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__live}
             href="https://pat-on.github.io/StudyProjectMaptyApp/"
           >
@@ -357,6 +381,7 @@ const Projects = () => {
           </a>
           <a
             target="_blank"
+            rel="noreferrer"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/StudyProjectMaptyApp"
           >

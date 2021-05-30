@@ -17,6 +17,7 @@ const Footer = (props) => {
         </li>
         <li>
           <a
+            rel="noreferrer"
             className={classes.links}
             href="https://github.com/Pat-On"
             target="_blank"
@@ -26,6 +27,7 @@ const Footer = (props) => {
         </li>
         <li>
           <a
+            rel="noreferrer"
             className={classes.links}
             target="_blank"
             href="https://www.linkedin.com/in/patryknowak1990/"
