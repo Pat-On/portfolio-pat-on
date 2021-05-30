@@ -3,7 +3,7 @@
 .mySkills {
   display: grid;
 
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
   grid-template-rows: repeat(7, min-content);
 
   justify-items: center;
@@ -63,13 +63,18 @@
     display: flex;
     justify-content: space-around;
 
-    margin-bottom: 8rem;
+    // margin-bottom: 8rem;
 
     li {
       flex-basis: 20%;
-      margin: 1rem;
+      margin: 1.5rem 1rem;
       img {
         width: 8rem;
+      }
+      p {
+        font-family: $font-primary;
+        font-size: 2rem;
+        font-weight: 300;
       }
     }
   }
@@ -84,6 +89,13 @@
   }
   &__softDescription {
     grid-column: 2 / 4;
+
+    font-family: $font-primary;
+    font-size: 2rem;
+
+    p:not(:last-child) {
+      margin-bottom: 2rem;
+    }
   }
 
   &__h3__soft {
@@ -114,6 +126,11 @@
       margin: 1rem;
       img {
         width: 8rem;
+      }
+      p {
+        font-family: $font-primary;
+        font-size: 2rem;
+        font-weight: 300;
       }
     }
   }
