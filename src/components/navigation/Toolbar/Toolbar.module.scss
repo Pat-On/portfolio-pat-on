@@ -24,9 +24,12 @@
 
 .toolbar nav {
 }
-@media (max-width: 499px) {
-  .DesktopOnly {
+@media (max-width: 799px) {
+  .desktopOnly {
     display: none;
+  }
+  .toolbar {
+    justify-content: flex-start;
   }
 }
 
