@@ -11,7 +11,8 @@ import forkifyProject from "../../assets/projectsPicture/forkifyProject.jpg";
 import highScoreTableProj from "../../assets/projectsPicture/highScoreTableProj.jpg";
 import jobListingProject from "../../assets/projectsPicture/jobListingProject.jpg";
 import maptyProject from "../../assets/projectsPicture/maptyProject.jpg";
-import portfolioProject from "../../assets/projectsPicture/portfolioProject.jpg";
+import portfolioProject from "../../assets/projectsPicture/portfolioV2.jpg";
+import signupForm from "../../assets/projectsPicture/signupForm.JPG";
 
 const Projects = () => {
   return (
@@ -20,17 +21,18 @@ const Projects = () => {
       <h2 className={classes.projectsPage__h2__bigProj}>
         Noteworthy project built from start by me
       </h2>
+
       <div className={classes.projectsPage__myProjectsBigger}>
         <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
-            src={fotoTvShowProject}
+            src={signupForm}
             alt=""
           />
-          <h3 className={classes.projectContainer__h3}>TV Show Project</h3>
+          <h3 className={classes.projectContainer__h3}>Sign-up Form</h3>
           <p className={classes.projectContainer__description}>
-            Pure Java Script project, which is using the View Port Model.
-            Application is using REST API 'TV MAZE' to fetch data.{" "}
+            Front-end application, created using React.js. App has implemented
+            complete validation plus tips for user what is wrong
           </p>
 
           <a
@@ -55,7 +57,7 @@ const Projects = () => {
           />
           <h3 className={classes.projectContainer__h3}>Portfolio</h3>
           <p className={classes.projectContainer__description}>
-            React Application
+            React Application, where I used SASS, GRID and FlexBox to style it
           </p>
 
           <a
@@ -67,6 +69,31 @@ const Projects = () => {
           <a
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/portfolio-pat-on"
+          >
+            Source Code
+          </a>
+        </div>
+        <div className={classes.projectContainer}>
+          <img
+            className={classes.projectContainer__img}
+            src={fotoTvShowProject}
+            alt=""
+          />
+          <h3 className={classes.projectContainer__h3}>TV Show Project</h3>
+          <p className={classes.projectContainer__description}>
+            Pure Java Script project, which is using the View Port Model.
+            Application is using REST API 'TV MAZE' to fetch data.{" "}
+          </p>
+
+          <a
+            className={classes.projectContainer__link__live}
+            href="https://cyf-patrykn-tv.netlify.app/"
+          >
+            Live Page
+          </a>
+          <a
+            className={classes.projectContainer__link__github}
+            href="https://github.com/Pat-On/tv-show-dom-project"
           >
             Source Code
           </a>
