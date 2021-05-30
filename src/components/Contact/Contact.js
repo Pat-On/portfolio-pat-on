@@ -21,6 +21,7 @@ const Contact = () => {
         <li>
           LinkedIn:
           <a
+            target="_blank"
             className={classes.links}
             href="https://www.linkedin.com/in/patryknowak1990/"
           >
@@ -29,13 +30,21 @@ const Contact = () => {
         </li>
         <li>
           GitHub:
-          <a className={classes.links} href="https://github.com/Pat-On">
+          <a
+            target="_blank"
+            className={classes.links}
+            href="https://github.com/Pat-On"
+          >
             Pat-On
           </a>
         </li>
         <li>
           LeetCode:
-          <a className={classes.links} href="https://leetcode.com/Pat-On/">
+          <a
+            target="_blank"
+            className={classes.links}
+            href="https://leetcode.com/Pat-On/"
+          >
             Pat-On
           </a>
         </li>

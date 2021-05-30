@@ -36,14 +36,16 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
-            href="https://cyf-patrykn-tv.netlify.app/"
+            href="https://sign-up-form-patryk-nowak.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/tv-show-dom-project"
+            href="https://github.com/Pat-On/signup-form-assessment"
           >
             Source Code
           </a>
@@ -61,12 +63,14 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://patryk-nowak-portfolio.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/portfolio-pat-on"
           >
@@ -86,12 +90,14 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://cyf-patrykn-tv.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/tv-show-dom-project"
           >
@@ -120,12 +126,14 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-jobs.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-job-listing-react"
           >
@@ -146,12 +154,14 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-countries-react.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-countries-react"
           >
@@ -172,12 +182,14 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-scores.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/high-scores-react"
           >
@@ -198,12 +210,14 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-hotel-react.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-hotel-react"
           >
@@ -224,12 +238,14 @@ const Projects = () => {
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://cyf-pat-on-baby-names.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-baby-names-react"
           >
@@ -251,19 +267,24 @@ const Projects = () => {
           <h3 className={classes.projectContainer__h3}>Burger Shop React</h3>
           <p className={classes.projectContainer__description}>
             App was done following that course: <br />
-            <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">
+            <a
+              target="_blank"
+              href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
+            >
               Maximilian Schwarzmüller, React - The Complete Guide (incl Hooks,
               React Router, Redux)
             </a>
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://react-my-burger-6df65.web.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/burger-shop-react"
           >
@@ -282,19 +303,24 @@ const Projects = () => {
           </h3>
           <p className={classes.projectContainer__description}>
             App was done following that course: <br />
-            <a href="https://www.udemy.com/course/the-complete-javascript-course/">
+            <a
+              target="_blank"
+              href="https://www.udemy.com/course/the-complete-javascript-course/"
+            >
               Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
               to Expert!
             </a>
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://forkify-patryk.netlify.app/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/studyProjectForkify"
           >
@@ -313,19 +339,24 @@ const Projects = () => {
           </h3>
           <p className={classes.projectContainer__description}>
             App was done following that course: <br />
-            <a href="https://www.udemy.com/course/the-complete-javascript-course/">
+            <a
+              target="_blank"
+              href="https://www.udemy.com/course/the-complete-javascript-course/"
+            >
               Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
               to Expert!
             </a>
           </p>
 
           <a
+            target="_blank"
             className={classes.projectContainer__link__live}
             href="https://pat-on.github.io/StudyProjectMaptyApp/"
           >
             Live Page
           </a>
           <a
+            target="_blank"
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/StudyProjectMaptyApp"
           >
