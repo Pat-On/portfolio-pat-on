@@ -3,7 +3,8 @@
 .navigationItem {
   display: inline-block;
   width: 18rem;
-
+  font-family: $font-display;
+  font-weight: 400;
   text-align: center;
 
   @media only screen and (max-width: 800px) {
@@ -29,5 +30,12 @@
     background-color: rgba($blue, 0.5);
     transform: scaleY(1);
     color: $dark-blue;
+  }
+}
+
+@media (max-width: 800px) {
+  .navigationItem {
+    width: 100%;
+    font-size: 1.8rem;
   }
 }
