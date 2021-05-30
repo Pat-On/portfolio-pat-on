@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Particles from "react-particles-js";
 
 import ProfilePhoto from "../../assets/images/ProfilePhoto.jpg";
@@ -19,14 +19,8 @@ const About = (props) => {
             color: {
               value: "#dbe2ef",
             },
-            // position: "50% 50%",
-            // repeat: "no-repeat",
-            // size: "cover",
           },
-          // fullScreen: {
-          //   enable: true,
-          //   zIndex: 1,
-          // },
+
           interactivity: {
             events: {
               onClick: {
@@ -129,9 +123,6 @@ const About = (props) => {
         <h1 className={classes.welcome__titleH1}>Hi,</h1>
         <h1 className={classes.welcome__titleH1}>I'm PATRYK,</h1>
         <h2 className={classes.welcome__titleH1}>Web Developer</h2>
-        {/* <h2 className={classes.welcome__titleH2}>
-          Seeking The Next Exciting Challenge
-        </h2> */}
         <button className={classes.welcome__myButton} onClick={toContactPage}>
           CONTACT ME
         </button>
@@ -188,20 +179,3 @@ const About = (props) => {
 };
 
 export default About;
-/*
-<div className={classes.resume}>
-<h1 className={classes.resume__h1}>RESUME</h1>
-
-<p>Thank You for your time and interest.</p>
-<p>Please feel free to have a look at my CV using the button below.</p>
-
-<a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
-  Find My CV HERE
-</a>
-
- <a href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download">
-  <button className={classes.myButton}>Find My CV HERE</button>
-</a> 
-</div>
-
-*/

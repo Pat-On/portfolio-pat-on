@@ -3,7 +3,6 @@
 .projectsPage {
   display: grid;
 
-  // grid-template-rows: min-content min-content min-content min-content min-content min-content min-content;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 
   justify-items: center;
@@ -14,12 +13,6 @@
   &__h1 {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
-
-    // font-family: $font-display;
-    // font-weight: 400;
-    // font-size: 8rem;
-    // line-height: 1.3;
-    // letter-spacing: 3px;
 
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
@@ -74,10 +67,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 4rem;
-    // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    // grid-gap: 7rem;
+
     justify-items: center;
-    // align-items: center;
   }
   &__myProjectsSmaller {
     grid-column: 1 / -1;
@@ -105,15 +96,12 @@
 
   width: 30rem;
 
-  // grid-template-rows: min-content min-content min-content;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
 
   grid-row-gap: 3.5rem;
 
-  // DEV VALUE
-  //   margin: 10px 30vh 15px;
   background-color: #e0e0e0;
   box-shadow: 5px 10px rgba(167, 162, 162, 0.1);
   border-radius: 10px;
@@ -183,75 +171,3 @@
     grid-row: 3 / 4;
   }
 }
-
-// .projectContainer > h3 {
-//   padding: 0;
-//   margin: 0;
-// }
-
-// .projectContainer > a {
-//   padding: 0;
-//   margin: 1.5rem;
-// }
-
-// .projectContainer > a {
-//   display: block;
-// }
-
-// .projectsH1 {
-//   font-family: "Roboto Slab 900", serif;
-// }
-
-// .projectsH2 {
-//   font-family: "Roboto Slab 700", serif;
-// }
-
-// .projectsH3 {
-//   font-family: "Roboto Slab 500", serif;
-// }
-
-// @media (max-width: 480px) and (min-width: 320px) {
-//   .projectsPageContainer {
-//     /* background-color: pink; */
-//   }
-// }
-
-// @media (max-width: 700px) and (min-width: 481px) {
-//   .projectsPageContainer {
-//     /* background-color: lightblue; */
-//   }
-//   .projectContainer {
-//     width: 80%;
-//     /* display: inline; */
-//     margin: 1rem auto 1rem;
-//   }
-// }
-// @media (max-width: 1000px) and (min-width: 701px) {
-//   .projectsPageContainer {
-//     /* background-color: greenyellow; */
-//   }
-//   .projectContainer {
-//     display: inline-block;
-//     height: auto;
-//     width: 40%;
-//     /* float: left; */
-//     margin: 1rem 0.5rem 1rem;
-//   }
-// }
-// @media (min-width: 1001px) {
-//   .projectsPageContainer {
-//     padding-top: 2rem;
-//     /* background-color: grey; */
-//   }
-//   .projectContainer {
-//     display: inline-block;
-//     height: auto;
-//     width: 30%;
-//     /* float: left; */
-//     margin: 1rem 0.5rem 1rem;
-//   }
-
-//   .projectsH1 {
-//     margin-bottom: 3rem;
-//   }
-// }
