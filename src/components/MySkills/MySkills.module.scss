@@ -47,8 +47,8 @@
     grid-column: 1 / -1;
 
     font-family: $font-display;
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 2.5rem;
+    font-weight: 200;
     text-align: center;
   }
   &__unorderedListHard {
@@ -62,8 +62,15 @@
     align-items: flex-end;
     display: flex;
     justify-content: space-around;
-
     margin-bottom: 5rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / 5;
+    }
+    @media only screen and (max-width: $bp-small) {
+      width: 85%;
+      margin-bottom: 1rem;
+    }
 
     li {
       flex-basis: 20%;
@@ -93,11 +100,18 @@
 
     font-family: $font-primary;
     font-size: 2rem;
+    margin-bottom: 4rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / 5;
+    }
+    @media only screen and (max-width: $bp-small) {
+      width: 85%;
+    }
 
     p:not(:last-child) {
       margin-bottom: 2rem;
     }
-    margin-bottom: 4rem;
   }
 
   &__h3__soft {
@@ -122,6 +136,13 @@
     justify-content: space-around;
 
     margin-bottom: 8rem;
+
+    @media only screen and (max-width: $bp-medium) {
+      grid-column: 1 / 5;
+    }
+    @media only screen and (max-width: $bp-small) {
+      width: 85%;
+    }
 
     li {
       flex-basis: 20%;
