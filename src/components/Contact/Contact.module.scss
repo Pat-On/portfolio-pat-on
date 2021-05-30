@@ -1,46 +1,110 @@
+@import "../../assets/styles/variables";
+
 .contactContainer {
-    width: 90%;
-    margin: auto;
+  display: grid;
+
+  grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
+  grid-template-rows: 4vh repeat(3, min-content) 1fr;
+  justify-items: center;
+  align-items: center;
+
+  text-align: center;
+
+  grid-row-gap: 4vh;
+  &__h1 {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-column-gap: 1.5rem;
+
+    align-items: center;
+
+    font-size: 4rem;
+
+    margin: 4rem 0;
+    &::before,
+    &::after {
+      content: "";
+      height: 1px;
+      width: 20rem;
+      display: block;
+      background-color: black;
+      color: black;
+    }
+  }
+
+  &__h3 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    font-family: $font-display;
+    font-size: 3rem;
+    font-weight: 300;
     text-align: center;
+
+    width: 70%;
+  }
+
+  &__list {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    list-style: none;
+    li {
+      font-family: $font-primary;
+      font-size: 1.8rem;
+      font-weight: 300;
+      margin: 0.5rem 0;
+    }
+    a {
+      margin-left: 1.5rem;
+    }
+  }
 }
 
-.unorderedList {
-    width: 100%;
-    list-style-type: none; 
-    padding: 0; 
-    margin:auto;
-    justify-content: space-around;
-}
+// .contactContainer {
+//     width: 90%;
+//     margin: auto;
+//     text-align: center;
+// }
 
-.unorderedList>li {
-    /* flex-basis: 30%; */
-    margin: 2rem;
-}
+// .unorderedList {
+//     width: 100%;
+//     list-style-type: none;
+//     padding: 0;
+//     margin:auto;
+//     justify-content: space-around;
+// }
 
-.links {
-    padding-left: 10px;
-}
+// .unorderedList>li {
+//     /* flex-basis: 30%; */
+//     margin: 2rem;
+// }
 
-.contactH1 {
-	font-family: 'Roboto Slab 900', serif;
-}
+// .links {
+//     padding-left: 10px;
+// }
 
-@media  (max-width: 480px) and (min-width: 320px) {
+// .contactH1 {
+// 	font-family: 'Roboto Slab 900', serif;
+// }
 
-}
+// @media  (max-width: 480px) and (min-width: 320px) {
 
-@media (max-width: 700px) and (min-width: 481px){
+// }
 
-}
+// @media (max-width: 700px) and (min-width: 481px){
 
-@media (max-width: 1000px) and (min-width: 701px){
-.contactContainer {
-padding-top: 2rem;
-}
-}
+// }
 
-@media (min-width: 1001px) {
-.contactContainer {
-padding-top: 2rem;
-}
-}
+// @media (max-width: 1000px) and (min-width: 701px){
+// .contactContainer {
+// padding-top: 2rem;
+// }
+// }
+
+// @media (min-width: 1001px) {
+// .contactContainer {
+// padding-top: 2rem;
+// }
+// }

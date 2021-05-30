@@ -1,3 +1,13 @@
+/*
+ * IMPORTANT COMMENT
+ * THIS IS FIRST VERSION WHICH REQUIRE TO DO:
+ * CLEAN SASS AND JS CODE
+ * UNIFY CODE + REUSABILITY
+ *
+ * THIS PROJECT IS USED BY ME TO PRACTICE SCSS
+ * SO I MAY NOT FOLLOW ALL GOOD PRACTICES OF WRITING CODE
+ */
+
 import React from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 
