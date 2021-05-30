@@ -43,7 +43,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/tv-show-dom-project"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
 
@@ -68,7 +68,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/portfolio-pat-on"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
       </div>
@@ -102,7 +102,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-job-listing-react"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
 
@@ -128,7 +128,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-countries-react"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
 
@@ -154,7 +154,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/high-scores-react"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
 
@@ -180,7 +180,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-hotel-react"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
 
@@ -206,7 +206,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/cyf-baby-names-react"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
       </div>
@@ -240,7 +240,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/burger-shop-react"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
 
@@ -271,7 +271,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/studyProjectForkify"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
 
@@ -282,7 +282,7 @@ const Projects = () => {
             alt=""
           />
           <h3 className={classes.projectContainer__h3}>
-            Mapty - pseudo training tracker{" "}
+            Mapty - training tracker
           </h3>
           <p className={classes.projectContainer__description}>
             App was done following that course: <br />
@@ -302,7 +302,7 @@ const Projects = () => {
             className={classes.projectContainer__link__github}
             href="https://github.com/Pat-On/StudyProjectMaptyApp"
           >
-            Source Code - GitHub
+            Source Code
           </a>
         </div>
       </div>
