@@ -17,16 +17,30 @@
   &__listOfIcons {
     list-style: none;
 
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 
     display: flex;
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+    li {
+      @media only screen and (max-width: $bp-small) {
+        margin: 0 2rem;
+      }
+    }
 
     img {
       display: block;
       height: 3.5rem;
       width: 3.5rem;
       margin: 0 1rem;
+
+      @media only screen and (max-width: $bp-small) {
+        height: 4rem;
+        width: 4rem;
+      }
     }
   }
 
@@ -46,16 +60,26 @@
     letter-spacing: 3px;
 
     transition: all 0.5s;
-
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+      font-size: 1.8rem;
+      font-weight: 400;
+    }
     &:hover {
       background-color: $light-gold;
     }
   }
 
   &__legal {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
     font-family: $font-primary;
     font-size: 1.5rem;
+
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
   }
 }

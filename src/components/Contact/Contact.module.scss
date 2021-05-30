@@ -32,6 +32,10 @@
       display: block;
       background-color: black;
       color: black;
+
+      @media only screen and (max-width: $bp-small) {
+        width: 12vw;
+      }
     }
   }
 
