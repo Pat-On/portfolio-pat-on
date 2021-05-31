@@ -25,7 +25,15 @@
       grid-column: 1 / 2;
       grid-row: 2 / 3;
     }
+
+    li:hover img {
+      transform: translateY(-4px);
+    }
     li {
+      img:hover {
+        transform: translateY(-4px);
+      }
+
       @media only screen and (max-width: $bp-small) {
         margin: 0 2rem;
       }
