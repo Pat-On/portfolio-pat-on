@@ -130,8 +130,16 @@ const About = (props) => {
 
       <div class={classes.about}>
         <h1 className={classes.about__title}>ABOUT</h1>
-
-        <img className={classes.about__img} src={ProfilePhoto} alt="Profile" />
+        <figure className={classes.about__figure}>
+          <img
+            className={classes.about__img}
+            src={ProfilePhoto}
+            alt="Profile"
+          />
+          <figcaption className={classes.about__figcaption}>
+            Looking for new challenges
+          </figcaption>
+        </figure>
 
         <div className={classes.about__description}>
           <p className={classes.aboutPElement}>
