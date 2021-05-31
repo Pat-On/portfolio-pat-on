@@ -30,10 +30,6 @@
       transform: translateY(-4px);
     }
     li {
-      img:hover {
-        transform: translateY(-4px);
-      }
-
       @media only screen and (max-width: $bp-small) {
         margin: 0 2rem;
       }
