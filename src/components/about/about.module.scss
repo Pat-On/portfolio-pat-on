@@ -149,38 +149,35 @@
     }
   }
   &__figure {
-    width: 35rem;
-    height: 35rem;
+    width: 32rem;
+    height: 32rem;
 
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+    justify-self: center;
+    align-self: center;
 
-    //dev to delete!!!!!!!!!!!!!!!!!!!!!!!
-    background-color: lightgreen;
-
-    display: grid;
-    justify-items: center;
+    display: flex;
     align-items: center;
 
     shape-outside: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     overflow: hidden;
-    justify-self: center;
-    align-self: center;
+
     position: relative;
+
     &:hover figcaption {
       opacity: 1;
       transform: translate(-50%, -50%);
     }
 
     &:hover img {
-      transform: translateX(-1rem) scale(1.2);
+      transform: translateX(0rem) scale(1.2);
       filter: blur(3px) brightness(80%);
     }
     @media only screen and (max-width: $bp-medium) {
       grid-column: 1 / 2;
       grid-row: 2 / 3;
-      width: 45%;
     }
   }
 
@@ -201,8 +198,10 @@
   }
 
   &__img {
+    // display: block;
     width: 100%;
     height: auto;
+    // margin: 0 auto;
     transform: translateX(0rem) scale(1.1);
     transition: all 0.2s;
   }
