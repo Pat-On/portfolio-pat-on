@@ -14,6 +14,8 @@ import jobListingProject from "../../assets/projectsPicture/jobListingProject.jp
 import maptyProject from "../../assets/projectsPicture/maptyProject.jpg";
 import portfolioProject from "../../assets/projectsPicture/portfolioV2.jpg";
 import signupForm from "../../assets/projectsPicture/signupForm.JPG";
+import quoteApp from "../../assets/projectsPicture/quoteApp.jpg";
+import natoursApp from "../../assets/projectsPicture/natoursApp.jpg";
 
 const myBigProj = [
   {
@@ -80,9 +82,17 @@ const mySmallProj = [
     title: "Baby name finder",
     img: babyNameFinderProject,
     description:
-      "Simple application made in react, which is using data stored on local machine..",
+      "Simple application made in react, which is using data stored on local machine.",
     linkLive: "https://cyf-pat-on-baby-names.netlify.app/",
     linkGithub: "https://github.com/Pat-On/cyf-baby-names-react",
+  },
+  {
+    title: "Quote app",
+    img: quoteApp,
+    description:
+      "Backend Express application, which is serving frontend react application as a views",
+    linkLive: "https://react-express-app-test1.herokuapp.com/",
+    linkGithub: "https://github.com/Pat-On/node-challenge-quote-server",
   },
 ];
 
@@ -119,6 +129,17 @@ const followedProj = [
       "https://www.udemy.com/course/the-complete-javascript-course/",
     linkLive: "https://pat-on.github.io/StudyProjectMaptyApp/",
     linkGithub: "https://github.com/Pat-On/StudyProjectMaptyApp",
+  },
+  {
+    title: "Natours - travel agency page",
+    img: natoursApp,
+    description: "App was done following that course:",
+    descriptionLinkToFollowed:
+      "Jonas Schmedtmann, Node.js, Express, MongoDB & More: The Complete Bootcamp 2021",
+    linkToDescription:
+      "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
+    linkLive: "https://natours-node-course-project.herokuapp.com/",
+    linkGithub: "https://github.com/Pat-On/complete-node-bootcamp-natours",
   },
 ];
 
