@@ -2,14 +2,26 @@ import React from "react";
 import classes from "./ProjectContainer.module.scss";
 
 const ProjectContainer = (props) => {
+  let description = (
+    <p className={classes.projectContainer__description}>{props.description}</p>
+  );
+
+  if (props.linkLive) {
+    description = (
+      <p className={classes.projectContainer__description}>
+        {props.description} <br />
+        <a target="_blank" rel="noreferrer" href={props.linkToDescription}>
+          {props.descriptionLinkToFollowed}
+        </a>
+      </p>
+    );
+  }
+
   return (
     <div className={classes.projectContainer}>
       <img className={classes.projectContainer__img} src={props.img} alt="" />
       <h3 className={classes.projectContainer__h3}>{props.title}</h3>
-      <p className={classes.projectContainer__description}>
-        {props.description}
-      </p>
-
+      {description}
       <a
         target="_blank"
         rel="noreferrer"

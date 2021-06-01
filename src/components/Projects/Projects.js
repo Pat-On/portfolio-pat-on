@@ -20,9 +20,9 @@ const myBigProj = [
     title: "Sign-up Form",
     img: signupForm,
     description:
-      "Front-end application, created using React.js. App has implemented   complete validation plus tips for user what is wrong",
+      "Front-end application, created using React.js. App has implemented complete validation plus tips for user what is wrong",
     linkLive: "https://sign-up-form-patryk-nowak.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/signup-form-assessment",
+    linkGithub: "https://github.com/Pat-On/signup-form-assessment",
   },
   {
     title: "Portfolio",
@@ -30,15 +30,15 @@ const myBigProj = [
     description:
       "React Application, where I used SASS, GRID and FlexBox to style it",
     linkLive: "https://patryk-nowak-portfolio.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/portfolio-pat-on",
+    linkGithub: "https://github.com/Pat-On/portfolio-pat-on",
   },
   {
     title: "TV Show Project",
     img: fotoTvShowProject,
     description:
-      " Pure Java Script project, which is using the View Port Model Application is using REST API 'TV MAZE' to fetch data",
+      "Pure Java Script project, which is using the View Port Model Application is using REST API 'TV MAZE' to fetch data",
     linkLive: "https://cyf-patrykn-tv.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/tv-show-dom-project",
+    linkGithub: "https://github.com/Pat-On/tv-show-dom-project",
   },
 ];
 
@@ -47,49 +47,56 @@ const mySmallProj = [
     title: "Job Listing",
     img: jobListingProject,
     description:
-      "            Simple application made in react, which is fetching the data from     REST API",
+      "Simple application made in react, which is fetching the data from REST API",
     linkLive: "https://cyf-pat-on-jobs.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/cyf-job-listing-react",
+    linkGithub: "https://github.com/Pat-On/cyf-job-listing-react",
   },
   {
     title: "Countries",
     img: countriesProject,
     description:
-      "      Simple application made in react, which is using REST API 'REST Countries' to fetch data.",
+      "Simple application made in react, which is using REST API 'REST Countries' to fetch data.",
     linkLive: "https://cyf-pat-on-countries-react.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/cyf-countries-react",
+    linkGithub: "https://github.com/Pat-On/cyf-countries-react",
   },
   {
     title: "High Score Table<",
     img: highScoreTableProj,
     description:
-      "                  Simple application made in react, which is using data stored on local machine.",
+      "Simple application made in react, which is using data stored on local machine.",
     linkLive: "https://cyf-pat-on-scores.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/high-scores-react",
+    linkGithub: "https://github.com/Pat-On/high-scores-react",
   },
   {
     title: "Hotel Page<",
     img: cyfhotelproject,
     description:
-      "           Simple application made in react, which is using data stored on      local machine.",
+      "Simple application made in react, which is using data stored on local machine.",
     linkLive: "https://cyf-pat-on-hotel-react.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/cyf-hotel-react",
+    linkGithub: "https://github.com/Pat-On/cyf-hotel-react",
   },
-  {
-    title: "Hotel Page<",
-    img: cyfhotelproject,
-    description:
-      "           Simple application made in react, which is using data stored on      local machine.",
-    linkLive: "https://cyf-pat-on-hotel-react.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/cyf-hotel-react",
-  },
+
   {
     title: "Baby name finder",
     img: babyNameFinderProject,
     description:
-      "             Simple application made in react, which is using data stored on   local machine..",
+      "Simple application made in react, which is using data stored on local machine..",
     linkLive: "https://cyf-pat-on-baby-names.netlify.app/",
-    lingGithub: "https://github.com/Pat-On/cyf-baby-names-react",
+    linkGithub: "https://github.com/Pat-On/cyf-baby-names-react",
+  },
+];
+
+const followedProj = [
+  {
+    title: "Burger Shop React",
+    img: burgerProject,
+    description: "App was done following that course:",
+    descriptionLinkToFollowed:
+      "Maximilian Schwarzmüller, React - The Complete Guide (incl Hooks, React Router, Redux",
+    linkToDescription:
+      "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+    linkLive: "https://react-my-burger-6df65.web.app/",
+    linkGithub: "https://github.com/Pat-On/burger-shop-react",
   },
 ];
 
@@ -100,6 +107,8 @@ const Projects = () => {
       <h2 className={classes.projectsPage__h2__bigProj}>
         Noteworthy project built from start by me
       </h2>
+
+      {/* big projects */}
 
       <div className={classes.projectsPage__myProjectsBigger}>
         {myBigProj.map((item) => {
@@ -117,161 +126,17 @@ const Projects = () => {
         {mySmallProj.map((item) => {
           return <ProjectContainer {...item} />;
         })}
-
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={jobListingProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>Job Listing</h3>
-          <p className={classes.projectContainer__description}>
-            Simple application made in react, which is fetching the data from
-            REST API
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://cyf-pat-on-jobs.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/cyf-job-listing-react"
-          >
-            Source Code
-          </a>
-        </div> */}
-
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={countriesProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>Countries</h3>
-          <p className={classes.projectContainer__description}>
-            Simple application made in react, which is using REST API 'REST
-            Countries' to fetch data.
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://cyf-pat-on-countries-react.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/cyf-countries-react"
-          >
-            Source Code
-          </a>
-        </div> */}
-
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={highScoreTableProj}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>High Score Table</h3>
-          <p className={classes.projectContainer__description}>
-            Simple application made in react, which is using data stored on
-            local machine.
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://cyf-pat-on-scores.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/high-scores-react"
-          >
-            Source Code
-          </a>
-        </div> */}
-
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={cyfhotelproject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>Hotel Page</h3>
-          <p className={classes.projectContainer__description}>
-            Simple application made in react, which is using data stored on
-            local machine.
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://cyf-pat-on-hotel-react.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/cyf-hotel-react"
-          >
-            Source Code
-          </a>
-        </div> */}
-
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={babyNameFinderProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>Baby name finder</h3>
-          <p className={classes.projectContainer__description}>
-            Simple application made in react, which is using data stored on
-            local machine.
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://cyf-pat-on-baby-names.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/cyf-baby-names-react"
-          >
-            Source Code
-          </a>
-        </div> */}
       </div>
+
       {/* followed projects */}
+      {followedProj.map((item) => {
+        return <ProjectContainer {...item} />;
+      })}
+
       <h2 className={classes.projectsPage__h2__followed}>
         Projects made by following courses
       </h2>
+
       <div className={classes.projectsPage__projectFollowedCourses}>
         <div className={classes.projectContainer}>
           <img
