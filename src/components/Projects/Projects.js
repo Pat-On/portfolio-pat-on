@@ -98,6 +98,28 @@ const followedProj = [
     linkLive: "https://react-my-burger-6df65.web.app/",
     linkGithub: "https://github.com/Pat-On/burger-shop-react",
   },
+  {
+    title: " Forkify - cooking recipes",
+    img: forkifyProject,
+    description: "App was done following that course:",
+    descriptionLinkToFollowed:
+      "Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero to Expert!",
+    linkToDescription:
+      "https://www.udemy.com/course/the-complete-javascript-course/",
+    linkLive: "https://forkify-patryk.netlify.app/",
+    linkGithub: "https://github.com/Pat-On/studyProjectForkify",
+  },
+  {
+    title: "Mapty - training tracker",
+    img: maptyProject,
+    description: "App was done following that course:",
+    descriptionLinkToFollowed:
+      "Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero to Expert!",
+    linkToDescription:
+      "https://www.udemy.com/course/the-complete-javascript-course/",
+    linkLive: "https://pat-on.github.io/StudyProjectMaptyApp/",
+    linkGithub: "https://github.com/Pat-On/StudyProjectMaptyApp",
+  },
 ];
 
 const Projects = () => {
@@ -111,8 +133,8 @@ const Projects = () => {
       {/* big projects */}
 
       <div className={classes.projectsPage__myProjectsBigger}>
-        {myBigProj.map((item) => {
-          return <ProjectContainer {...item} />;
+        {myBigProj.map((item, index) => {
+          return <ProjectContainer {...item} key={index} />;
         })}
       </div>
 
@@ -123,135 +145,21 @@ const Projects = () => {
       </h2>
 
       <div className={classes.projectsPage__myProjectsSmaller}>
-        {mySmallProj.map((item) => {
-          return <ProjectContainer {...item} />;
+        {mySmallProj.map((item, index) => {
+          return <ProjectContainer {...item} key={index} />;
         })}
       </div>
 
       {/* followed projects */}
-      {followedProj.map((item) => {
-        return <ProjectContainer {...item} />;
-      })}
 
       <h2 className={classes.projectsPage__h2__followed}>
         Projects made by following courses
       </h2>
 
       <div className={classes.projectsPage__projectFollowedCourses}>
-        <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={burgerProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>Burger Shop React</h3>
-          <p className={classes.projectContainer__description}>
-            App was done following that course: <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/"
-            >
-              Maximilian Schwarzmüller, React - The Complete Guide (incl Hooks,
-              React Router, Redux)
-            </a>
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://react-my-burger-6df65.web.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/burger-shop-react"
-          >
-            Source Code
-          </a>
-        </div>
-
-        <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={forkifyProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>
-            Forkify - cooking recipes
-          </h3>
-          <p className={classes.projectContainer__description}>
-            App was done following that course: <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.udemy.com/course/the-complete-javascript-course/"
-            >
-              Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
-              to Expert!
-            </a>
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://forkify-patryk.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/studyProjectForkify"
-          >
-            Source Code
-          </a>
-        </div>
-
-        <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={maptyProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>
-            Mapty - training tracker
-          </h3>
-          <p className={classes.projectContainer__description}>
-            App was done following that course: <br />
-            <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://www.udemy.com/course/the-complete-javascript-course/"
-            >
-              Jonas Schmedtmann, The Complete JavaScript Course 2021: From Zero
-              to Expert!
-            </a>
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://pat-on.github.io/StudyProjectMaptyApp/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/StudyProjectMaptyApp"
-          >
-            Source Code
-          </a>
-        </div>
+        {followedProj.map((item, index) => {
+          return <ProjectContainer {...item} key={index} />;
+        })}
       </div>
     </div>
   );
