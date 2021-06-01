@@ -42,6 +42,57 @@ const myBigProj = [
   },
 ];
 
+const mySmallProj = [
+  {
+    title: "Job Listing",
+    img: jobListingProject,
+    description:
+      "            Simple application made in react, which is fetching the data from     REST API",
+    linkLive: "https://cyf-pat-on-jobs.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/cyf-job-listing-react",
+  },
+  {
+    title: "Countries",
+    img: countriesProject,
+    description:
+      "      Simple application made in react, which is using REST API 'REST Countries' to fetch data.",
+    linkLive: "https://cyf-pat-on-countries-react.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/cyf-countries-react",
+  },
+  {
+    title: "High Score Table<",
+    img: highScoreTableProj,
+    description:
+      "                  Simple application made in react, which is using data stored on local machine.",
+    linkLive: "https://cyf-pat-on-scores.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/high-scores-react",
+  },
+  {
+    title: "Hotel Page<",
+    img: cyfhotelproject,
+    description:
+      "           Simple application made in react, which is using data stored on      local machine.",
+    linkLive: "https://cyf-pat-on-hotel-react.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/cyf-hotel-react",
+  },
+  {
+    title: "Hotel Page<",
+    img: cyfhotelproject,
+    description:
+      "           Simple application made in react, which is using data stored on      local machine.",
+    linkLive: "https://cyf-pat-on-hotel-react.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/cyf-hotel-react",
+  },
+  {
+    title: "Baby name finder",
+    img: babyNameFinderProject,
+    description:
+      "             Simple application made in react, which is using data stored on   local machine..",
+    linkLive: "https://cyf-pat-on-baby-names.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/cyf-baby-names-react",
+  },
+];
+
 const Projects = () => {
   return (
     <div className={classes.projectsPage}>
@@ -63,7 +114,11 @@ const Projects = () => {
       </h2>
 
       <div className={classes.projectsPage__myProjectsSmaller}>
-        <div className={classes.projectContainer}>
+        {mySmallProj.map((item) => {
+          return <ProjectContainer {...item} />;
+        })}
+
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={jobListingProject}
@@ -91,9 +146,9 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
+        </div> */}
 
-        <div className={classes.projectContainer}>
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={countriesProject}
@@ -121,9 +176,9 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
+        </div> */}
 
-        <div className={classes.projectContainer}>
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={highScoreTableProj}
@@ -151,9 +206,9 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
+        </div> */}
 
-        <div className={classes.projectContainer}>
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={cyfhotelproject}
@@ -181,9 +236,9 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
+        </div> */}
 
-        <div className={classes.projectContainer}>
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={babyNameFinderProject}
@@ -211,7 +266,7 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
+        </div> */}
       </div>
       {/* followed projects */}
       <h2 className={classes.projectsPage__h2__followed}>
