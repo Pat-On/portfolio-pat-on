@@ -14,6 +14,32 @@ import maptyProject from "../../assets/projectsPicture/maptyProject.jpg";
 import portfolioProject from "../../assets/projectsPicture/portfolioV2.jpg";
 import signupForm from "../../assets/projectsPicture/signupForm.JPG";
 
+const myBigProj = [
+  {
+    title: "Sign-up Form",
+    img: signupForm,
+    description:
+      "Front-end application, created using React.js. App has implemented   complete validation plus tips for user what is wrong",
+    linkLive: "https://sign-up-form-patryk-nowak.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/signup-form-assessment",
+  },
+  {
+    title: "Portfolio",
+    img: "portfolioProject",
+    description:
+      "React Application, where I used SASS, GRID and FlexBox to style it",
+    linkLive: "https://patryk-nowak-portfolio.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/portfolio-pat-on",
+  },
+  {
+    title: "TV Show Project",
+    img: fotoTvShowProject,
+    description: "",
+    linkLive: "https://cyf-patrykn-tv.netlify.app/",
+    lingGithub: "https://github.com/Pat-On/tv-show-dom-project",
+  },
+];
+
 const Projects = () => {
   return (
     <div className={classes.projectsPage}>
@@ -23,7 +49,7 @@ const Projects = () => {
       </h2>
 
       <div className={classes.projectsPage__myProjectsBigger}>
-        <div className={classes.projectContainer}>
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={signupForm}
@@ -51,9 +77,9 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
+        </div> */}
 
-        <div className={classes.projectContainer}>
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={portfolioProject}
@@ -80,8 +106,8 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
-        <div className={classes.projectContainer}>
+        </div> */}
+        {/* <div className={classes.projectContainer}>
           <img
             className={classes.projectContainer__img}
             src={fotoTvShowProject}
@@ -109,7 +135,7 @@ const Projects = () => {
           >
             Source Code
           </a>
-        </div>
+        </div> */}
       </div>
 
       {/* small projects */}
