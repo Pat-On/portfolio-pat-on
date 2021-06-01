@@ -1,0 +1,108 @@
+@import "../../assets//styles/variables";
+
+.projectContainer {
+  display: grid;
+
+  width: 30rem;
+
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+
+  grid-row-gap: 3.5rem;
+
+  background-color: #e0e0e0;
+  box-shadow: 5px 10px rgba(167, 162, 162, 0.1);
+  border-radius: 10px;
+
+  @media only screen and (max-width: $bp-small) {
+    width: 40rem;
+    height: 55rem;
+    grid-row-gap: 2.5rem;
+    margin: 2rem 0;
+  }
+
+  &__img {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    width: 100%;
+    z-index: 1;
+    object-fit: cover;
+  }
+
+  &__h3 {
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    z-index: 5;
+
+    justify-self: center;
+    align-self: end;
+
+    font-family: $font-display;
+    background-color: $dark-blue;
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 1.25rem;
+    font-weight: 300;
+    width: 80%;
+    transform: translateY(50%);
+    @media only screen and (max-width: $bp-small) {
+      font-size: 1.8rem;
+      font-weight: 400;
+      width: 98%;
+      padding: 1.8rem;
+    }
+  }
+
+  &__description {
+    grid-column: 1 / -1;
+    grid-row: 2 / 3;
+    font-family: $font-primary;
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  &__link__live,
+  &__link__github {
+    background-color: $gold;
+    color: $dark-blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.2rem 0;
+    width: 90%;
+
+    font-family: $font-display;
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: $light-gold;
+    }
+  }
+
+  &__link__live {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / 3;
+      grid-row: 3 / 4;
+      width: 100%;
+      padding: 3rem 0;
+    }
+  }
+
+  &__link__github {
+    @media only screen and (max-width: $bp-small) {
+      grid-column: 1 / 3;
+      grid-row: 4 / 5;
+      width: 100%;
+      padding: 3rem 0;
+    }
+  }
+}

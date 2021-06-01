@@ -1,6 +1,7 @@
 import React from "react";
 
 import classes from "./Projects.module.scss";
+import ProjectContainer from "../projectConainer/ProjectContainer";
 
 import fotoTvShowProject from "../../assets/projectsPicture/tvShowProject.jpg";
 import babyNameFinderProject from "../../assets/projectsPicture/babyNameFinderProject.jpg";
@@ -25,7 +26,7 @@ const myBigProj = [
   },
   {
     title: "Portfolio",
-    img: "portfolioProject",
+    img: portfolioProject,
     description:
       "React Application, where I used SASS, GRID and FlexBox to style it",
     linkLive: "https://patryk-nowak-portfolio.netlify.app/",
@@ -34,7 +35,8 @@ const myBigProj = [
   {
     title: "TV Show Project",
     img: fotoTvShowProject,
-    description: "",
+    description:
+      " Pure Java Script project, which is using the View Port Model Application is using REST API 'TV MAZE' to fetch data",
     linkLive: "https://cyf-patrykn-tv.netlify.app/",
     lingGithub: "https://github.com/Pat-On/tv-show-dom-project",
   },
@@ -49,93 +51,9 @@ const Projects = () => {
       </h2>
 
       <div className={classes.projectsPage__myProjectsBigger}>
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={signupForm}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>Sign-up Form</h3>
-          <p className={classes.projectContainer__description}>
-            Front-end application, created using React.js. App has implemented
-            complete validation plus tips for user what is wrong
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://sign-up-form-patryk-nowak.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/signup-form-assessment"
-          >
-            Source Code
-          </a>
-        </div> */}
-
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={portfolioProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>Portfolio</h3>
-          <p className={classes.projectContainer__description}>
-            React Application, where I used SASS, GRID and FlexBox to style it
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://patryk-nowak-portfolio.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/portfolio-pat-on"
-          >
-            Source Code
-          </a>
-        </div> */}
-        {/* <div className={classes.projectContainer}>
-          <img
-            className={classes.projectContainer__img}
-            src={fotoTvShowProject}
-            alt=""
-          />
-          <h3 className={classes.projectContainer__h3}>TV Show Project</h3>
-          <p className={classes.projectContainer__description}>
-            Pure Java Script project, which is using the View Port Model.
-            Application is using REST API 'TV MAZE' to fetch data.{" "}
-          </p>
-
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__live}
-            href="https://cyf-patrykn-tv.netlify.app/"
-          >
-            Live Page
-          </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            className={classes.projectContainer__link__github}
-            href="https://github.com/Pat-On/tv-show-dom-project"
-          >
-            Source Code
-          </a>
-        </div> */}
+        {myBigProj.map((item) => {
+          return <ProjectContainer {...item} />;
+        })}
       </div>
 
       {/* small projects */}
