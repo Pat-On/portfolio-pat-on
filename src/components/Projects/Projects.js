@@ -17,6 +17,7 @@ import signupForm from "../../assets/projectsPicture/signupForm.JPG";
 import quoteApp from "../../assets/projectsPicture/quoteApp.jpg";
 import natoursApp from "../../assets/projectsPicture/natoursApp.jpg";
 import trilloApp from "../../assets/projectsPicture/trilloProject.JPG";
+import nexterApp from "../../assets/projectsPicture/nexterEstateAgencyProject.JPG";
 
 const myBigProj = [
   {
@@ -90,8 +91,7 @@ const mySmallProj = [
   {
     title: "Quote app",
     img: quoteApp,
-    description:
-      "Backend Express application, which is serving frontend react application as a views",
+    description: "2 in 1, express - backend, react - frontend",
     linkLive: "https://react-express-app-test1.herokuapp.com/",
     linkGithub: "https://github.com/Pat-On/node-challenge-quote-server",
   },
@@ -155,7 +155,7 @@ const followedProj = [
   },
   {
     title: "Nexter - Estate Agency",
-    img: trilloApp,
+    img: nexterApp,
     description: "App was done following that course:",
     descriptionLinkToFollowed:
       "Jonas Schmedtmann, Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
