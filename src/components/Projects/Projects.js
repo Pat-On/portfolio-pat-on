@@ -16,6 +16,7 @@ import portfolioProject from "../../assets/projectsPicture/portfolioV2.jpg";
 import signupForm from "../../assets/projectsPicture/signupForm.JPG";
 import quoteApp from "../../assets/projectsPicture/quoteApp.jpg";
 import natoursApp from "../../assets/projectsPicture/natoursApp.jpg";
+import trilloApp from "../../assets/projectsPicture/trilloProject.JPG";
 
 const myBigProj = [
   {
@@ -140,6 +141,29 @@ const followedProj = [
       "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/",
     linkLive: "https://natours-node-course-project.herokuapp.com/",
     linkGithub: "https://github.com/Pat-On/complete-node-bootcamp-natours",
+  },
+  {
+    title: "Trillo - Hotel Page",
+    img: trilloApp,
+    description: "App was done following that course:",
+    descriptionLinkToFollowed:
+      "Jonas Schmedtmann, Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+    linkToDescription: "https://www.udemy.com/course/advanced-css-and-sass/",
+    linkLive: "https://trillo-advanced-css-sass-course-udemy.netlify.app/",
+    linkGithub:
+      "https://github.com/Pat-On/trillo-advanced-css-sass-course-udemy",
+  },
+  {
+    title: "Nexter - Estate Agency",
+    img: trilloApp,
+    description: "App was done following that course:",
+    descriptionLinkToFollowed:
+      "Jonas Schmedtmann, Advanced CSS and Sass: Flexbox, Grid, Animations and More!",
+    linkToDescription: "https://www.udemy.com/course/advanced-css-and-sass/",
+    linkLive:
+      "https://nexter-advanced-sass-flex-grid-udemy-course.netlify.app/",
+    linkGithub:
+      "https://github.com/Pat-On/nexter-advanced-sass-flex-grid-udemy",
   },
 ];
 
