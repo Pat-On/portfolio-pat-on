@@ -64,7 +64,7 @@ const mySmallProj = [
     linkGithub: "https://github.com/Pat-On/cyf-countries-react",
   },
   {
-    title: "High Score Table<",
+    title: "High Score Table",
     img: highScoreTableProj,
     description:
       "Simple application made in react, which is using data stored on local machine.",
@@ -72,7 +72,7 @@ const mySmallProj = [
     linkGithub: "https://github.com/Pat-On/high-scores-react",
   },
   {
-    title: "Hotel Page<",
+    title: "Hotel Page",
     img: cyfhotelproject,
     description:
       "Simple application made in react, which is using data stored on local machine.",
@@ -81,7 +81,7 @@ const mySmallProj = [
   },
 
   {
-    title: "Baby name finder",
+    title: "Baby Name Finder",
     img: babyNameFinderProject,
     description:
       "Simple application made in react, which is using data stored on local machine.",
@@ -89,7 +89,7 @@ const mySmallProj = [
     linkGithub: "https://github.com/Pat-On/cyf-baby-names-react",
   },
   {
-    title: "Quote app",
+    title: "Quote App",
     img: quoteApp,
     description: "2 in 1, express - backend, react - frontend",
     linkLive: "https://react-express-app-test1.herokuapp.com/",
@@ -110,7 +110,7 @@ const followedProj = [
     linkGithub: "https://github.com/Pat-On/burger-shop-react",
   },
   {
-    title: " Forkify - cooking recipes",
+    title: " Forkify - Cooking Recipes",
     img: forkifyProject,
     description: "App was done following that course:",
     descriptionLinkToFollowed:
@@ -121,7 +121,7 @@ const followedProj = [
     linkGithub: "https://github.com/Pat-On/studyProjectForkify",
   },
   {
-    title: "Mapty - training tracker",
+    title: "Mapty - Training Tracker",
     img: maptyProject,
     description: "App was done following that course:",
     descriptionLinkToFollowed:
@@ -132,7 +132,7 @@ const followedProj = [
     linkGithub: "https://github.com/Pat-On/StudyProjectMaptyApp",
   },
   {
-    title: "Natours - travel agency page",
+    title: "Natours - Travel Agency",
     img: natoursApp,
     description: "App was done following that course:",
     descriptionLinkToFollowed:
