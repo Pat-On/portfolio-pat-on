@@ -1,6 +1,7 @@
 @import "../../assets//styles/variables";
 
 .projectContainer {
+  position: relative;
   display: grid;
 
   width: 30rem;
@@ -23,11 +24,22 @@
   }
 
   &__img {
+    position: block;
+    width: 100%;
     grid-column: 1 / -1;
     grid-row: 1 / 2;
     width: 100%;
     z-index: 1;
     object-fit: cover;
+    transition: all 0.4s;
+    outline-offset: 1rem;
+
+    &:hover {
+      transform: scale(1.8);
+      z-index: 10;
+      box-shadow: 0 1.5rem 3rem rgba(black, 0.2);
+      outline: 1rem solid $dark-blue;
+    }
   }
 
   &__h3 {
