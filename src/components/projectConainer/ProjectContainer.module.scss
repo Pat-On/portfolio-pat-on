@@ -13,8 +13,11 @@
   grid-row-gap: 3.5rem;
 
   background-color: #e0e0e0;
-  box-shadow: 5px 10px rgba(167, 162, 162, 0.1);
-  border-radius: 10px;
+  // box-shadow: 5px 10px rgba(167, 162, 162, 0.1);
+  // border-radius: 10px;
+  border: 2px solid $dark-blue;
+
+  // overflow: hidden;
 
   @media only screen and (max-width: $bp-small) {
     width: 40rem;
@@ -24,6 +27,7 @@
   }
 
   &__img {
+    overflow: visible;
     position: block;
     width: 100%;
     grid-column: 1 / -1;
@@ -33,11 +37,12 @@
     object-fit: cover;
     transition: all 0.4s;
     outline-offset: 1rem;
+    object-fit: cover;
 
     &:hover {
       transform: scale(1.8);
       z-index: 10;
-      box-shadow: 0 1.5rem 3rem rgba(black, 0.2);
+      box-shadow: 0 1.5rem 3rem rgba($dark-black, 0.2);
       outline: 1rem solid $dark-blue;
     }
   }
