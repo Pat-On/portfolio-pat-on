@@ -19,7 +19,10 @@ const ProjectContainer = (props) => {
 
   return (
     <div className={classes.projectContainer}>
-      <img className={classes.projectContainer__img} src={props.img} alt="" />
+      <div className={classes.projectContainer__div}>
+        <img className={classes.projectContainer__img} src={props.img} alt="" />
+      </div>
+
       <h3 className={classes.projectContainer__h3}>{props.title}</h3>
       {description}
       <a
