@@ -39,8 +39,14 @@ const MySkills = () => {
       </h3>
       <ul className={classes.mySkills__unorderedListHard}>
         <li>
-          <img className={classes.logo} src={jsLogo} alt="js logo" />
-          <p>JavaScript</p>
+          <div className={classes.card}>
+            <div className={classes.card__front}>
+              <img className={classes.logo} src={jsLogo} alt="js logo" />
+            </div>
+            <div className={classes.card__back}>
+              <p>JavaScript</p>
+            </div>
+          </div>
         </li>
         <li>
           <img className={classes.logo} src={mongodb} alt="mongoDB logo" />
