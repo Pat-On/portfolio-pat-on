@@ -32,14 +32,17 @@
     width: 100%;
     z-index: 1;
     height: 100%;
-    &:hover > img {
-      transform: scale(1.8);
-      z-index: 10;
-      box-shadow: 0 1.5rem 3rem rgba($dark-black, 0.2);
-      outline: 1rem solid $dark-blue;
-    }
-    &:hover {
-      z-index: 10;
+
+    @media only screen and (min-width: $bp-large) {
+      &:hover > img {
+        transform: scale(1.8);
+        z-index: 10;
+        box-shadow: 0 1.5rem 3rem rgba($dark-black, 0.2);
+        outline: 1rem solid $dark-blue;
+      }
+      &:hover {
+        z-index: 10;
+      }
     }
   }
   &__img {
