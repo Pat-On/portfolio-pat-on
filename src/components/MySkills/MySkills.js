@@ -1,5 +1,7 @@
 import React from "react";
 
+import SkillBox from "../SkillBox/SkillBox";
+
 import classes from "./MySkills.module.scss";
 
 import gitLogo from "../../assets/icons/git.png";
@@ -29,6 +31,69 @@ import attentionToDetails from "../../assets/icons/attentionToDetails.png";
 // postgresql by Julien Monty from icon-icon.com
 // sass by Julien Monty
 
+const codingSkills = [
+  {
+    title: "JavaScript",
+    altIMG: "JavaScript LOGO",
+    logoSRC: jsLogo,
+  },
+  {
+    title: "mongoDB",
+    altIMG: "mongoDB LOGO",
+    logoSRC: mongodb,
+  },
+  {
+    title: "CSS3",
+    altIMG: "CSS3 LOGO",
+    logoSRC: css3Logo,
+  },
+  {
+    title: "SASS",
+    altIMG: "SASS LOGO",
+    logoSRC: sass,
+  },
+  {
+    title: "PostgreSQL",
+    altIMG: "PostgreSQL logo by Julien Monty from icon-icon.com",
+    logoSRC: postgress,
+  },
+  {
+    title: "HTML5",
+    altIMG: "HTML5 LOGO",
+    logoSRC: html5Logo,
+  },
+  {
+    title: "React.js",
+    altIMG: "React.js Logo",
+    logoSRC: reactLogo,
+  },
+  {
+    title: "Redux.js",
+    altIMG: "Redux.js Logo",
+    logoSRC: reduxLogo,
+  },
+  {
+    title: "GIT",
+    altIMG: "GIT Logo",
+    logoSRC: gitLogo,
+  },
+  {
+    title: "npm.js",
+    altIMG: "npm.js Logo",
+    logoSRC: npmLogo,
+  },
+  {
+    title: "Python3",
+    altIMG: "Python3 Logo",
+    logoSRC: python3,
+  },
+  {
+    title: "Node.js",
+    altIMG: "Node.js Logo",
+    logoSRC: nodejsLogo,
+  },
+];
+
 const MySkills = () => {
   return (
     <div className={classes.mySkills}>
@@ -38,69 +103,11 @@ const MySkills = () => {
         Recently used technologies by me:
       </h3>
       <ul className={classes.mySkills__unorderedListHard}>
-        <li>
-          <div className={classes.card}>
-            <div className={classes.card__front}>
-              <img className={classes.logo} src={jsLogo} alt="js logo" />
-            </div>
-            <div className={classes.card__back}>
-              <p>JavaScript</p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img className={classes.logo} src={mongodb} alt="mongoDB logo" />
-          <p>mongoDB</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={css3Logo} alt="css3 logo" />
-          <p>CSS3</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={sass}
-            alt="sass logo by Julien Monty from icon-icon.com"
-          />
-          <p>SASS</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={postgress}
-            alt="postgress logo by Julien Monty from icon-icon.com"
-          />
-          <p>Postgress</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={html5Logo} alt="html5 logo" />
-          <p>html5</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={reactLogo} alt="react logo" />
-          <p>React.js</p>
-        </li>
-
-        <li>
-          <img className={classes.logo} src={reduxLogo} alt="redux.js logo" />
-          <p>redux.js</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={gitLogo} alt="git logo" />
-          <p> Git </p>
-        </li>
-        <li>
-          <img className={classes.logo} src={npmLogo} alt="npm logo" />
-          <p>npm.js</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={python3} alt="python3 logo" />
-          <p> Python3</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={nodejsLogo} alt="node.js logo" />
-          <p> Node.js</p>
-        </li>
+        {codingSkills.map((item, index) => (
+          <li>
+            <SkillBox key={index} {...item}></SkillBox>
+          </li>
+        ))}
       </ul>
       <h2 className={classes.mySkills__h2__soft}>Soft Skills</h2>
       <div className={classes.mySkills__softDescription}>
