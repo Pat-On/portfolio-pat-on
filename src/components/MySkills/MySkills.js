@@ -1,5 +1,7 @@
 import React from "react";
 
+import SkillBox from "../SkillBox/SkillBox";
+
 import classes from "./MySkills.module.scss";
 
 import gitLogo from "../../assets/icons/git.png";
@@ -29,6 +31,117 @@ import attentionToDetails from "../../assets/icons/attentionToDetails.png";
 // postgresql by Julien Monty from icon-icon.com
 // sass by Julien Monty
 
+const codingSkills = [
+  {
+    title: "JavaScript",
+    altIMG: "JavaScript LOGO",
+    logoSRC: jsLogo,
+  },
+  {
+    title: "mongoDB",
+    altIMG: "mongoDB LOGO",
+    logoSRC: mongodb,
+  },
+  {
+    title: "CSS3",
+    altIMG: "CSS3 LOGO",
+    logoSRC: css3Logo,
+  },
+  {
+    title: "SASS",
+    altIMG: "SASS LOGO",
+    logoSRC: sass,
+  },
+  {
+    title: "PostgreSQL",
+    altIMG: "PostgreSQL logo by Julien Monty from icon-icon.com",
+    logoSRC: postgress,
+  },
+  {
+    title: "HTML5",
+    altIMG: "HTML5 LOGO",
+    logoSRC: html5Logo,
+  },
+  {
+    title: "React.js",
+    altIMG: "React.js Logo",
+    logoSRC: reactLogo,
+  },
+  {
+    title: "Redux.js",
+    altIMG: "Redux.js Logo",
+    logoSRC: reduxLogo,
+  },
+  {
+    title: "GIT",
+    altIMG: "GIT Logo",
+    logoSRC: gitLogo,
+  },
+  {
+    title: "npm.js",
+    altIMG: "npm.js Logo",
+    logoSRC: npmLogo,
+  },
+  {
+    title: "Python3",
+    altIMG: "Python3 Logo",
+    logoSRC: python3,
+  },
+  {
+    title: "Node.js",
+    altIMG: "Node.js Logo",
+    logoSRC: nodejsLogo,
+  },
+];
+
+const softSkills = [
+  {
+    title: "Analytical thinking",
+    altIMG: "Icon made by www.wishforge.games from www.freeicons.io",
+    logoSRC: analyticalThinking,
+  },
+  {
+    title: "Problem solving",
+    altIMG: "Icon made by MD Badsha Meah from www.freeicons.io",
+    logoSRC: problemSolving,
+  },
+  {
+    title: "Attention to Detail",
+    altIMG: "Icon made by icon king1 from www.freeicons.io",
+    logoSRC: attentionToDetails,
+  },
+  {
+    title: "Public speaking",
+    altIMG: "Icon made by icon king1 from www.freeicons.io",
+    logoSRC: speakerIcon,
+  },
+  {
+    title: "Organisational",
+    altIMG: "Icon made by icon king1 from www.freeicons.io",
+    logoSRC: organisational,
+  },
+  {
+    title: "Project management",
+    altIMG: "Icon made by icon king1 from www.freeicons.io",
+    logoSRC: project,
+  },
+  {
+    title: "Leadership",
+    altIMG: "Icon made by MD Badsha Meah from www.freeicons.io",
+    logoSRC: leadership,
+  },
+  {
+    title: "Creativity",
+    altIMG: "Icon made by MD Badsha Meah from www.freeicons.io",
+    logoSRC: creativity,
+  },
+  {
+    title: "Communication",
+    altIMG: "Icon made by MD Badsha Meah from www.freeicons.io",
+    logoSRC: communication,
+  },
+];
+
 const MySkills = () => {
   return (
     <div className={classes.mySkills}>
@@ -38,63 +151,11 @@ const MySkills = () => {
         Recently used technologies by me:
       </h3>
       <ul className={classes.mySkills__unorderedListHard}>
-        <li>
-          <img className={classes.logo} src={jsLogo} alt="js logo" />
-          <p>JavaScript</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={mongodb} alt="mongoDB logo" />
-          <p>mongoDB</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={css3Logo} alt="css3 logo" />
-          <p>CSS3</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={sass}
-            alt="sass logo by Julien Monty from icon-icon.com"
-          />
-          <p>SASS</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={postgress}
-            alt="postgress logo by Julien Monty from icon-icon.com"
-          />
-          <p>Postgress</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={html5Logo} alt="html5 logo" />
-          <p>html5</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={reactLogo} alt="react logo" />
-          <p>React.js</p>
-        </li>
-
-        <li>
-          <img className={classes.logo} src={reduxLogo} alt="redux.js logo" />
-          <p>redux.js</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={gitLogo} alt="git logo" />
-          <p> Git </p>
-        </li>
-        <li>
-          <img className={classes.logo} src={npmLogo} alt="npm logo" />
-          <p>npm.js</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={python3} alt="python3 logo" />
-          <p> Python3</p>
-        </li>
-        <li>
-          <img className={classes.logo} src={nodejsLogo} alt="node.js logo" />
-          <p> Node.js</p>
-        </li>
+        {codingSkills.map((item, index) => (
+          <li key={index}>
+            <SkillBox {...item}></SkillBox>
+          </li>
+        ))}
       </ul>
       <h2 className={classes.mySkills__h2__soft}>Soft Skills</h2>
       <div className={classes.mySkills__softDescription}>
@@ -122,82 +183,11 @@ const MySkills = () => {
 
       <h3 className={classes.mySkills__h3__soft}>Some chosen softs skills:</h3>
       <ul className={classes.mySkills__unorderedListSoft}>
-        <li>
-          <img
-            className={classes.logo}
-            src={analyticalThinking}
-            alt="Icon made by www.wishforge.games from www.freeicons.io"
-          />
-          <p>Analytical thinking</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={problemSolving}
-            alt="Icon made by MD Badsha Meah from www.freeicons.io"
-          />
-          <p>Problem solving </p>
-        </li>
-
-        <li>
-          <img
-            className={classes.logo}
-            src={attentionToDetails}
-            alt="Icon made by icon king1 from www.freeicons.io"
-          />
-          <p>Attention to Detail</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={speakerIcon}
-            alt="Icon made by icon king1 from www.freeicons.io"
-          />
-          <p>Public speaking</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={organisational}
-            alt="Icon made by ColourCreatype from www.freeicons.io"
-          />
-          <p>Organisational</p>
-        </li>
-
-        <li>
-          <img
-            className={classes.logo}
-            src={project}
-            alt="Icon made by icon king1 from www.freeicons.io"
-          />
-          <p>Project management</p>
-        </li>
-
-        <li>
-          <img
-            className={classes.logo}
-            src={leadership}
-            alt="Icon made by MD Badsha Meah from www.freeicons.io"
-          />
-          <p>Leadership</p>
-        </li>
-
-        <li>
-          <img
-            className={classes.logo}
-            src={creativity}
-            alt="Icon made by MD Badsha Meah from www.freeicons.io"
-          />
-          <p>Creativity</p>
-        </li>
-        <li>
-          <img
-            className={classes.logo}
-            src={communication}
-            alt="Icon made by MD Badsha Meah from www.freeicons.io"
-          />
-          <p>Communication</p>
-        </li>
+        {softSkills.map((item, index) => (
+          <li key={index}>
+            <SkillBox {...item}></SkillBox>
+          </li>
+        ))}
       </ul>
     </div>
   );
