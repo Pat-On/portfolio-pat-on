@@ -152,8 +152,8 @@ const MySkills = () => {
       </h3>
       <ul className={classes.mySkills__unorderedListHard}>
         {codingSkills.map((item, index) => (
-          <li>
-            <SkillBox key={index} {...item}></SkillBox>
+          <li key={index}>
+            <SkillBox {...item}></SkillBox>
           </li>
         ))}
       </ul>
@@ -184,8 +184,8 @@ const MySkills = () => {
       <h3 className={classes.mySkills__h3__soft}>Some chosen softs skills:</h3>
       <ul className={classes.mySkills__unorderedListSoft}>
         {softSkills.map((item, index) => (
-          <li>
-            <SkillBox key={index} {...item}></SkillBox>
+          <li key={index}>
+            <SkillBox {...item}></SkillBox>
           </li>
         ))}
       </ul>
