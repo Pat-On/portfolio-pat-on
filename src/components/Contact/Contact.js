@@ -15,7 +15,7 @@ const Contact = () => {
         <li>
           E-mail:
           <a className={classes.links} href="mailto: patryk.r.nowak@gmail.com">
-            patryk.nowak@gmail.com
+            patryk.r.nowak@gmail.com
           </a>
         </li>
         <li>
