@@ -144,7 +144,7 @@ const About = (props) => {
         <div className={classes.about__description}>
           <p className={classes.aboutPElement}>
             I'm a full stack developer who started from a non IT background. I
-            came from the academic sector, where{" "}
+            came from the academic sector, where
             <b>
               during my P.H.D studies I have learnt a methodological and
               analytical approach to solve problems.

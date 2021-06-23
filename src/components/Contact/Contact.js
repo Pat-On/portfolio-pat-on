@@ -14,7 +14,7 @@ const Contact = () => {
       <ul className={classes.contactContainer__list}>
         <li>
           E-mail:
-          <a className={classes.links} href="mailto: patryk.nowak@gmail.com">
+          <a className={classes.links} href="mailto: patryk.r.nowak@gmail.com">
             patryk.nowak@gmail.com
           </a>
         </li>
