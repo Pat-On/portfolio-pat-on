@@ -39,7 +39,7 @@ const Footer = (props) => {
 
       <a
         className={classes.footer__cv}
-        href="https://drive.google.com/u/0/uc?id=1JbyK9xXztnC_9KMSvWcXTegpqxDu2hBV&export=download"
+        href="https://drive.google.com/u/0/uc?id=1ZRNlv_CfjR3pqzYbbeKq_NMJCQ_TFA8N&export=download"
       >
         Find My CV HERE
       </a>
